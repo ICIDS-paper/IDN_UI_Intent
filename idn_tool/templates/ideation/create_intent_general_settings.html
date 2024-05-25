@@ -1,0 +1,114 @@
+{% extends "layout.html" %}
+{% block head %}
+    {{ super() }}
+
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static', filename='create_intent.css') }}">
+{% endblock %}
+
+{% block content %}
+<script src="{{ url_for('static', filename='create_intent.js') }}">
+</script>
+<div class="container-fluid bg-1 text-center">
+<h4>Add more context for the IDN</h4>
+    <div class="row">
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-6 shadow p-3 mb-5 rounded ">
+            <form action= "{{ url_for('ideation.create_intent_general_settings') }}"    method="post"   id="intent_form">
+                <label for="interaction">What is intended interaction range of complexity?</label>
+                <select name="interaction" id="interaction"  required>
+                    <option value= "1.No_Interaction" >No Interaction</option>
+                    <option value= "2.Simple" >Simple</option>
+                    <option value= "3.Complicated" >Complicated</option>
+                    <option value= "4.Complex" >Complex</option>
+                </select>
+                <label for="background">Would you like to generate a background story for your narrative?</label>
+                <select name="background" id="background" required>
+                    <option value="No">No</option>
+                    <option value="Yes">Yes</option>
+
+
+                </select>
+
+                <div class="form-group hidden">
+                <label for="background-story">Background story: </label>
+                <textarea readonly rows="3" cols="50" name="background-story" id="generated-background-story" maxlength="1000" placeholder="..."></textarea>
+            </div>
+
+
+                <label for="tools">Which embedded tool(s) would you like to use?</label>
+                <select name="tools" id="tools"  required multiple>
+                    <option value= "1.Figurative" >Figurative Language Support Module</option>
+                    <option value= "2.Content" >Content Generator Service (powered by ChatGPT 4.0)</option>
+                    <option value= "3.Socio_Cultural" >Individualized authoring support (based on socio-cultural research)</option>
+                </select>
+                <label for="notes">Are there any notes you would like to add?</label>
+                <textarea rows="4" cols="50" class="form-control" name="notes" form="intent_form" maxlength="500" placeholder="Notes"></textarea>
+
+                <button type="submit" class="btn btn-lg custom-btn custom-btn-next " value = {{ intent_id }} name = "intent_id" name="action" value="submit" >Continue to 'Show Intent Structure'</button>
+
+
+
+            </form>
+        </div>
+        <div class="col-sm-3">
+
+        </div>
+                                    <!-- Modal -->
+<div class="modal fade nodeModal" id="BackgroundStoryModal">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content container-fluid bg-modal text-center">
+      <div class="modal-header">
+        <h5 class="modal-title" id="BackgroundStoryModalLabel">Content Generator</h5>
+        <button type="button" class="close btn btn-default" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body .text-regular">
+          <div class="container-fluid-modal">
+          <div class="row">
+              <div class="col-md-12 shadow p-3 mb-5 rounded text-background">
+                  <h6>Use the 'Content Generator' external service to:</h6>
+                   <ul>
+                      <li>Generate a background story for the ideation phase of the text-based fiction authoring process.</li>
+                       <li>Refine and update a background story by incorporating your feedback. </li>
+                   </ul>
+                  <button type="button" class="btn btn-lg custom-btn custom-btn-submit generate-background"  name="action" value="submit" >Generate</button>
+                  </div>
+              </div>
+              <form action= "{{ url_for('ideation.create_intent_aim') }}"    method="post"   id="background-form">
+              <div class="row">
+
+                  <div class="col-md-12 shadow p-3 rounded text-background">
+                  <label for="background-story">This is the generated story: </label>
+                <textarea rows="4" cols="50" name="background-story" id="background-story"  maxlength="1000" placeholder="Generated background story" readonly></textarea>
+                  <label for="author-feedback">Provide your feedback and regenerate the background story: </label>
+                <textarea rows="3" cols="50" name="author-feedback" id="author-feedback"  maxlength="1000" placeholder="Please provide more context on the time and cultural specifics for the story (1920s, unknown central european country). Also make the character of Grete more prominent (Gregor and Grete had good and trusting relationships before. He encourages her talent for violin. She initially tries her best to accept his transformation. But then she fully gives up and accumulates a lot of anger and rejection).. Lastly, write it using a bit of Dostoevsky style."></textarea>
+                <button type="button" class="btn btn-lg custom-btn custom-btn-submit refine-background"  name="action" value="submit" >Refine </button>
+                  </div>
+
+              </div>
+                  <button type="button" class="btn btn-lg custom-btn custom-btn-submit submit-background"  name="action" value="submit" >Submit </button>
+                 </form>
+          </div>
+
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    </div>
+    </div>
+
+
+
+</div>
+    {% endblock %}
+
+{% block footer %}
+    {{ super() }}
+{% endblock %}
+
+

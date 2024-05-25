@@ -1,0 +1,117 @@
+{% extends "layout.html" %}
+{% block head %}
+    {{ super() }}
+
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static', filename='create_intent.css') }}">
+{% endblock %}
+
+{% block content %}
+<script src="{{ url_for('static', filename='create_intent.js') }}">
+</script>
+<div class="container-fluid bg-1 text-center">
+<h4>Provide information about media & genre</h4>
+    <div class="row">
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-6 shadow p-3 mb-5 rounded">
+            <form action= "{{ url_for('ideation.create_intent_media') }}"    method="post"   id="intent_form">
+            <div class="form-group">
+                <label for="modality">Modality</label>
+                <select name="modality" id="modality" required>
+                    <option value= "1.visual">Visual</option>
+                    <option value= "2.text">Text</option>
+                    <option value= "3.text+visual">Text+Visual</option>
+                    <option value= "4.audio">Audio</option>
+                    <option value= "5.video">Video</option>
+                </select>
+            </div>
+
+                <div class="form-group hidden">
+                <label for="tool_text">Which tool would you like to use for 'Text' modality?</label>
+                <select name="tool_text" id="tool_text">
+                <option value= "Notepad">Notepad</option>
+                <option value= "Microsoft Word">Microsoft Word</option>
+                <option value= "OpenOffice">Apache OpenOffice</option>
+                <option value= "GoogleDocs">Google Docs</option>
+                </select>
+                </div>
+
+                <div class="form-group hidden">
+                <label for="tool_text_2">Which tool would you like to use for 'Text' modality?</label>
+                <select name="tool_text_2" id="tool_text_2">
+                <option value= "Notepad">Notepad</option>
+                <option value= "Word">Microsoft Word</option>
+                <option value= "OpenOffice">Apache OpenOffice</option>
+                <option value= "GoogleDocs">Google Docs</option>
+                </select>
+                <label for="tool_visual">Which tool would you like to use for 'Visual' modality?</label>
+                <select name="tool_visual" id="tool_visual">
+                <option value= "Illustrator">Adobe Illustrator</option>
+                <option value= "CorelDRAW">CorelDRAW</option>
+                <option value= "Inkscape">Inkscape</option>
+                <option value= "Procreate">Procreate</option>
+                </select>
+                </div>
+
+
+
+            <div class="form-group">
+                <label for="media">Media</label>
+                <select name="media" id="media" required>
+                    <option value= "1.documentary">Interactive Documentary</option>
+                    <option value= "2.video_game">Video Game</option>
+                    <option value= "3.fiction">Fiction</option>
+                    <option value= "4.non_fiction">Non-Fiction</option>
+                </select>
+            </div>
+
+            <div class="form-group hidden">
+                <label for="narrative_type">What is the type of narrative?</label>
+                <select name="type" id="narrative_type">
+                <option value= "1.prose">Prose</option>
+                <option value= "2.short_story">Short Story</option>
+                <option value= "3.novel">Novel</option>
+                <option value= "4.narrative_poem">Narrative Poem</option>
+            </select>
+            </div>
+
+                <div class="form-group hidden">
+                <label for="genre">What is the genre?</label>
+                <select name="genre" id="genre">
+                <option value= "1.adventure">Adventure</option>
+                <option value= "2.fantasy">Fantasy</option>
+                <option value= "3.horror">Horror</option>
+                <option value= "4.absurd">Absurdist Fiction</option>
+                <option value= "5.sci-fi">Science Fiction</option>
+                <option value= "6.romance">Romance</option>
+                <option value= "7.mixed">Mixed</option>
+            </select>
+            </div>
+
+        <label for="plot_synopsis">Initial plot synopsis (max. 500 characters)</label>
+        <textarea rows="4" cols="50" class="form-control" name="plot_synopsis" form="intent_form" maxlength="500" placeholder="Initial plot synopsis"></textarea>
+        <br>
+
+        <button type="submit" class="btn btn-lg custom-btn custom-btn-next" value = {{ intent_id }} name = "intent_id" name="action" value="submit" >Continue to 'Content Structure' </button>
+
+        </form>
+        </div>
+        <div class="col-sm-3">
+
+        </div>
+        <!-- <div class="col-sm-8 shadow p-3 mb-5 bg-white rounded main-content">-->
+
+
+    </div>
+    </div>
+
+
+
+</div>
+    {% endblock %}
+
+{% block footer %}
+    {{ super() }}
+{% endblock %}
+
+

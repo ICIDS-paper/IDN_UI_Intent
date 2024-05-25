@@ -1,0 +1,226 @@
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    letter-spacing: 3px;
+    min-height:60px;
+  }
+  .navbar-nav  li a:hover {
+    color: #77B0AA !important; /*third color in the palette */
+  }
+
+  a.dropdown-item {
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+
+a.dropdown-item.active_menu_item{
+    text-decoration: underline;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+  a.dropdown-item {
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+
+
+  div.dropdown-menu {
+    /*background-image: linear-gradient(to bottom, #FFFFFF, #77B0AA);*/
+    background-color:#77B0AA
+  }
+
+
+  a#navbarDropdown {
+    color: #E3FEF7; /*very very light*/
+    padding-left: 15px;
+    padding-right: 220px;
+  }
+
+  .stay-open {display:block !important;}
+
+  h4{padding-top: 10px;}
+
+
+.custom-btn {
+    background-color: #135D66;
+    color: #E3FEF7; /*very very light*/
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding:80px;
+}
+
+
+.custom-btn-next{
+    margin-top:10px;
+    margin-left:60%;
+    padding:10px;
+    text-align: right;
+}
+
+
+.custom-btn-modal{
+    margin-top:10px;
+    margin-left:12%;
+    width: 20%;
+    padding:10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+/*FORM STYLE*/
+input, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 16px ;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: #E3FEF7;
+}
+
+textarea, textarea.form-control {
+  background: #E3FEF7;
+  width: 100%;
+  padding: 10px;
+}
+
+/*MODALS*/
+.bg-modal {
+ background-image: linear-gradient(to bottom, #FFFFFF, #77B0AA); /* Greenish/Grayish Dark #77B0AA*/
+ /*this adds transparency: *background: rgba(119, 176, 170, .5); /* Greenish/Grayish Dark #77B0AA*/
+ height: 1000px;
+ }
+
+
+ input.input_button{
+ padding: 5px;
+ text-align: center;
+ background-color:#E3FEF7;
+ }
+
+
+ .modal-dialog {
+          max-width: 1000px; /* New width for default modal */
+        }
+
+
+   .narrative-btn {
+    background-color: #77B0AA;
+    color: #003C43; /*darkest*/
+    letter-spacing: 1px;
+    font-size: 12px;
+    margin-top:10%;
+    margin-left:0%;
+    margin-right:0%;
+    padding:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8%;
+    margin-bottom: 10%;
+}
+
+
+  .narrative-btn-edit {
+    background-color: #77B0AA;
+    color: #003C43; /*darkest*/
+    letter-spacing: 1px;
+    font-size: 12px;
+    margin-top:10%;
+    margin-left:0%;
+    margin-right:0%;
+    padding:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8%;
+    margin-bottom: 20%;
+}
+
+
+.narrative-btn-edit-background{
+    background-color: #77B0AA;
+    color: #003C43; /*darkest*/
+    letter-spacing: 1px;
+    font-size: 10px;
+    margin-top:10%;
+    margin-left:0%;
+    margin-right:0%;
+    padding:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    margin-bottom: 10%;
+}
+
+.row{
+width: 100%;}
+
+.text-background{
+text-align:justify;
+test-align:left;}
+
+
+
+.custom-btn-submit{
+    margin-top:10px;
+    margin-left:70%;
+    margin-bottom:10px;
+    margin-right:10px;
+    padding:10px;
+    width: 20%;
+    text-align: center;
+}
+
+.network-graph {
+  border: 2px solid #003C43;
+  weight: 100vh;
+  height: 800px;
+  padding: 10px;
+  }
+
+
+ .custom-col-edit-modal{
+ height: 800px;}
+
+
+ .img-node-details{
+ width:50%;
+ display:block;
+ height:auto;
+ margin:auto;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ border-radius: 30px;
+ box-shadow: 0 0 20px 10px rgba(0, 60, 67, .5) ;/* Greenish/Grayish Dark #77B0AA*/
+ }
+
+.col-edit-node{
+margin:10px;
+}
+
+
+.border-highlight {
+  border: 3px solid #135D66;
+}
+
+
+.close-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+   z-index: 1; /* Ensure close button is above other content */
+}

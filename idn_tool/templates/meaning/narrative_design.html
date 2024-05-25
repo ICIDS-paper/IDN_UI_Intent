@@ -1,0 +1,184 @@
+{% extends "layout.html" %}
+{% block head %}
+    {{ super() }}
+    <link href="https://cdn.bokeh.org/bokeh/release/bokeh-3.4.1.min.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.bokeh.org/bokeh/release/bokeh-3.4.1.min.js"></script>
+
+{% endblock %}
+
+{% block content %}
+<script src="{{ url_for('static', filename='narrative_design.js') }}"></script>
+
+<div class="container-fluid bg-1 text-center">
+    <h4>Narrative Design</h4>
+    <div class="row narrative-row">
+     <div class="col-sm-2"></div>
+     <div class="col-sm-7 shadow p-3 mb-5 rounded">
+         <div class="network-graph">
+             {{script | safe }}
+            {{ div | safe }}
+        </div>
+
+
+<!-- Bootstrap Modal -->
+        <div id="nodeModal" name="nodeModal" class="modal fade nodeModal">
+ <div class="modal-dialog modal-dialog-centered">
+  <div class="modal-content container-fluid bg-modal text-center">
+   <div class="modal-header">
+       <h5 class="modal-title" id="node_name_modal" ></h5>
+    <button type="button" class="close btn btn-default close-btn-top" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        </button>
+   </div>
+   <div class="modal-body .text-regular">
+      <div class="container-fluid-modal">
+          <div class="row">
+              <div class="col-md-10 shadow p-3 mb-5 rounded custom-col-edit-modal">
+                  <div class="row">
+                      <div class="col-md-12 shadow rounded col-edit-node" id="col-desc" onclick="changeBorder('col-desc')">
+                      <label for="node_desc_modal">Description: </label>
+                      <input id="node_desc_modal" name="node_desc_modal"></input>
+                      </div>
+                      </div>
+
+                  <div id="div-location" style="display:none;">
+
+            <!-- Content to be displayed if condition is met -->
+                      <div class="container text-center">
+                          <div class="row">
+                              <div class="col-md-12 shadow rounded col-edit-node" id="col2" onclick="changeBorder('col2')">
+                                <label for="node-component-1">Component: </label>
+                                <img src="/static/uploads/bedroom.webp" class="img-responsive img-node-details" id="node-component-1" >
+                             </div>
+                              </div>
+                          <div class="row">
+                              <div class="col-md-12 shadow rounded col-edit-node" id="col3" onclick="changeBorder('col3')">
+                                  <label for="node-component-2">Component: </label>
+                                  <p id="node-component-2" class="text-background">
+                                      Gregor’s room is the most critical place in the house. Much of the story happens here.
+                                      It is a regular human bedroom that lays quiet between the four familiar walls. The cloth samples suggest that Gregor
+                                      takes his job seriously. It can mean that Gregor brings work home.
+                                      There are multiple objects in the room. The lady's cut-out print in the muff symbolizes his strive towards a better life.
+                                      When his mother attempts to refinish the room, Gregor holds on to it. It may mean that Gregor tries to stay human.
+                                      His body and his mind went through a transformation. However, the self-made frame with the lady reminds him of his human side.</p>
+                            </div>
+                              </div>
+
+                          </div>
+                    </div>
+
+
+                  <div id="div-char" style="display:none;">
+
+            <!-- Content to be displayed if condition is met -->
+                      <div class="container text-center">
+                          <div class="row">
+                              <div class="col-md-12 shadow rounded col-edit-node" id="col2-char" onclick="changeBorder('col2-char')">
+                                <label for="node-component-1-char">Component: </label>
+                                <img src="/static/uploads/office-manager.jpg" class="img-responsive img-node-details" id="node-component-1-char" >
+                             </div>
+                              </div>
+                          <div class="row">
+                              <div class="col-md-12 shadow rounded col-edit-node" id="col3-char" onclick="changeBorder('col3-char')">
+                                  <label for="node-component-2">Component: </label>
+                                  <p id="node-component-2-char" class="text-background">
+                                       the office manager is Gregor Samsa's boss who visits his home when Gregor
+                                      fails to show up for work. His visit highlights the pressure Gregor faces in his
+                                      job. The manager is unsympathetic and more concerned with company
+                                      interests than Gregor's well-being. Shocked by Gregor's transformation into an
+                                      insect, the manager leaves abruptly, symbolizing the professional world's
+                                      lack of empathy and Gregor's resulting isolation.</p>
+                            </div>
+                              </div>
+
+                          </div>
+                    </div>
+
+
+                  <div id="div-event" style="display:none;">
+
+            <!-- Content to be displayed if condition is met -->
+                      <div class="container text-center">
+                              </div>
+                          <div class="row">
+                              <div class="col-md-12 shadow rounded col-edit-node" id="col2-event" onclick="changeBorder('col2-event')">
+                                <label for="node-component-1">Component: </label>
+                                <img src="/static/uploads/neglect.webp" class="img-responsive img-node-details" id="node-component-1-event" >
+                             </div>
+                              </div>
+                          <div class="row">
+                              <div class="col-md-12 shadow rounded col-edit-node" id="col3-event" onclick="changeBorder('col3-event')">
+                                  <label for="node-component-2">Component: </label>
+                                  <p id="node-component-2-event" class="text-background">
+                                      Confined to his room and increasingly isolated, Gregor's condition worsens as his
+                                      family grows indifferent and hostile. They take in lodgers, further sidelining him.
+                                      Ultimately, their neglect leads to Gregor's death, which they accept with relief,
+                                      highlighting their complete detachment and the dehumanizing effects of alienation.</p>
+                            </div>
+                              </div>
+
+                          </div>
+                    </div>
+
+              <div class="col-md-2 shadow p-3 mb-5 rounded">
+                <a href="{{url_for('meaning.element_components_save', data=data)}}" class="btn btn-lg narrative-btn-edit save_el">Save</a>
+                <a href="" class="btn btn-lg narrative-btn-edit delete_el">Delete</a>
+                <a href="" class="btn btn-lg narrative-btn-edit import_text">Import Text Component</a>
+                <a href="" class="btn btn-lg narrative-btn-edit import_visual">Import Visual Component</a>
+                <a href="" class="btn btn-lg narrative-btn-edit delete_comp">Delete Component</a>
+                <a href="" class="btn btn-lg narrative-btn-edit use_content_gen">Use Content Generator Service</a>
+                <a href="" class="btn btn-lg narrative-btn-edit use_fig_lang">Use Figurative Language Support Module</a>
+                <a href="" class="btn btn-lg narrative-btn-edit use_ind_sup">Use Individual Authoring Support</a>
+                </div>
+
+          </div>
+
+
+      </div>
+      </div>
+      </div>
+  </div>
+ </div>
+</div>
+    <div class="col-sm-1 shadow p-3 mb-5 rounded">
+        <a href="" class="btn btn-lg narrative-btn">Add Element</a>
+        <a href="" class="btn btn-lg narrative-btn">Delete Element</a>
+        <a href="" class="btn btn-lg narrative-btn">Edit Element</a>
+        <a href="" class="btn btn-lg narrative-btn">Add Note</a>
+        <a href="" class="btn btn-lg narrative-btn">Add Relationship</a>
+        <a href="" class="btn btn-lg narrative-btn">Delete Relationship</a>
+        <a href="" class="btn btn-lg narrative-btn">Show Intent Structure</a>
+        <a href="" class="btn btn-lg narrative-btn">Export Actual Structure</a>
+        <a href="" class="btn btn-lg narrative-btn">Consistency Check</a>
+    </div>
+
+
+
+         <a href="{{url_for('validation.test_the_narrative')}}" class="btn btn-lg custom-btn custom-btn-next">Continue to 'Test The Narrative'</a>
+     </div>
+
+
+
+
+        <script>
+    // Function to refresh the parent page upon closing the modal
+    function refreshParentPage() {
+        // Reload the parent page
+        location.reload();
+    }
+
+    // Add an event listener to the close button of the modal
+    document.querySelector('.close-btn-top').addEventListener('click', function() {
+        // Call the function to refresh the parent page
+        refreshParentPage();
+    });
+</script>
+
+    {% endblock %}
+
+{% block footer %}
+    {{ super() }}
+
+{% endblock %}
+
+

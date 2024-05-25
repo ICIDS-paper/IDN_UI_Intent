@@ -1,0 +1,149 @@
+{% extends "layout.html" %}
+{% block head %}
+    {{ super() }}
+
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static', filename='create_intent_structure.css') }}">
+{% endblock %}
+
+{% block content %}
+<script src="{{ url_for('static', filename='create_intent.js') }}"></script>
+<script src="{{url_for('static', filename='create_intent_content_structure.js')}}"></script>
+<div class="container-fluid bg-1 text-center">
+<h4>Which content structure do you envision?</h4>
+    <div class="row">
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-2 rounded shadow p-3 mb-5">
+            <h5>Overview</h5><hr>
+            <div class="text-align">
+            <p>Add the content structure elements of your narrative and relationships between them.
+                The following elements are supported: Character, Location, Event. </p>
+                <p> Note: Currently relationships functionality through front end is not supported.</p>
+                </div>
+        </div>
+        <div class="col-sm-6 shadow p-3 mb-5 rounded">
+            <h5>Add an element</h5>
+            <form class="row g-3" action= ""    method="post"   id="intent_form">
+                <div class="col-md-6">
+                 <label for="element_type">What is the type of the element?</label>
+                    <select name="element_type" id="element_type" required>
+                    <option value= "Character" >Character</option>
+                    <option value= "Location" >Location</option>
+                    <option value= "Event" >Event</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                 <label for="element_name">What is the name of the character?</label>
+                <input type="text" name="element_name" id="element_name" placeholder="Name" required>
+                </div>
+                <div class="col-md-12">
+                 <label for="element_desc">Provide some description of the content element</label>
+                    <textarea rows="4" cols="50" id="element_desc" name="element_desc"  placeholder="Element description" required maxlength="200"></textarea>
+
+                </div>
+                <div class="col-md-12">
+                <button type="submit" class="btn btn-lg custom-btn custom-btn-submit" name="action" value="submit" >Submit</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-sm-2">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-8 shadow p-3 mb-5 rounded">
+            <h5>Content Structure Elements</h5>
+
+
+        <table id="content_elements" class="table table-striped">
+        <thead>
+         <tr>
+            <th>Element Type </th>
+             <th>Element Name</th>
+             <th>Element Description</th>
+            <th></th> <th></th>
+                </tr>
+
+        </thead>
+            <tbody>
+            {% for row in content_structure_data %}
+            <tr>
+                <td>
+                    {{ row[2] }}
+                </td>
+                <td> {{ row[3] }}</td>
+                <td> <div class="text-align"> {{ row[4] }} </div> </td>
+                {% if row[2]=='Event' %}
+                <td>
+                     <a  href= ""> </a>
+                        <input class="input_button add_relationship" name="action" data-id='{{row[3]}}' value="+ Relationship"
+                               rel="tooltip" data-toggle="modal" data-target="#relationshipsModal"
+                        data-object="">
+
+                </td>
+                {% else %} <td>  </td>
+                {% endif %}
+
+                <td>
+                    <a href= "{{ url_for('ideation.content_element_delete', element_id=row[1])}}" onclick="delete_clicked(event)">
+                    <input name="action" value="Delete" rel="tooltip" class="input_button" >
+                    <i class="material-icons"></i></input> </a>
+
+                </td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+
+                    <!-- Modal -->
+<div class="modal fade" id="relationshipsModal">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content container-fluid bg-modal text-center">
+      <div class="modal-header">
+        <h5 class="modal-title" id="relationshipsModalLabel">Add relationships</h5>
+        <button type="button" class="close btn btn-default" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body .text-regular">
+        <!--<form action= "{{ url_for('ideation.create_intent_general_settings') }}"    method="post"   id="rel_form">
+                <label for="tools">Which other elements is this event related to?</label>
+                <select name="interaction" id="tools"  required multiple>
+                    <option value= "1.Figurative" >db1</option>
+                    <option value= "2.Content" >db2</option>
+                    <option value= "3.Socio_Cultural" >db3</option>
+                </select>
+                <button type="submit" class="btn btn-lg custom-btn custom-btn-modal" value = {{ intent_id }} name = "intent_id" name="action" value="submit" >
+                    Continue to 'Show Intent Structure'</button>
+            </form>-->
+          <p>To be implemented</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+            <form action= "{{ url_for('ideation.create_intent_general_settings') }}"   method="post"   id="intent_form_2">
+                <button type="submit" class="btn btn-lg custom-btn custom-btn-next" name="action" value="submit_2" >Continue to 'General Settings'</button>
+            </form>
+
+
+
+
+
+        </div>
+            <div class="col-sm-2">
+        </div>
+        </div>
+
+</div>
+
+    {% endblock %}
+
+{% block footer %}
+    {{ super() }}
+{% endblock %}
+
+

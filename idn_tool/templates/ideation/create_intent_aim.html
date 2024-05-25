@@ -1,0 +1,56 @@
+{% extends "layout.html" %}
+{% block head %}
+    {{ super() }}
+
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static', filename='create_intent.css') }}">
+{% endblock %}
+
+{% block content %}
+<script src="{{ url_for('static', filename='create_intent.js') }}">
+</script>
+<div class="container-fluid bg-1 text-center">
+<h4>Provide some information about the aim and audience of your IDN</h4>
+    <div class="row">
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-6 shadow p-3 mb-5 rounded ">
+            <form action= "{{ url_for('ideation.create_intent_aim') }}"    method="post"   id="intent_form">
+                <label for="topic">What is the topic?</label>
+                <input type="text" id="topic" name="topic" placeholder="Topic of the narrative" required></input>
+                <label for="title">What is the title?</label>
+                 <input type="text" id="title" name="title" placeholder="Title of the narrative" required></input>
+                <label for="goal">Goal</label>
+                <select name="goal" id="goal"  required>
+                    <option value= "1.Persuasion" >Persuasion</option>
+                    <option value= "2.Negotiation" >Negotiation</option>
+                    <option value= "3.Inquiry" >Inquiry</option>
+                    <option value= "4.Deliberation" >Deliberation</option>
+                    <option value= "5.Information Seeking" >Information Seeking</option>
+                    <option value= "6.Education" >Education</option>
+                    <option value= "7.Entertainment" >Entertainment</option>
+                </select>
+                <label for="audience">What is the aimed for audience (consider covering age range, education level, needs and intentions)?</label>
+                <textarea rows="4" cols="50" name="audience"  maxlength="500" placeholder="Audience context" equired maxlength="200"></textarea>
+                <button type="submit" class="btn btn-lg custom-btn custom-btn-next">Continue to 'Media & Genre'</button>
+
+            </form>
+        </div>
+        <div class="col-sm-3">
+
+        </div>
+        <!-- <div class="col-sm-8  p-3 mb-5 bg-white rounded main-content">-->
+
+
+    </div>
+    </div>
+
+
+
+</div>
+    {% endblock %}
+
+{% block footer %}
+    {{ super() }}
+{% endblock %}
+
+

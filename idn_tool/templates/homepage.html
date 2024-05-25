@@ -1,0 +1,30 @@
+{% extends "layout_initial.html" %}
+{% block head %}
+    {{ super() }}
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static', filename='homepage.css') }}">
+{% endblock %}
+
+{% block content %}
+
+    <div class="container-fluid bg-1 text-center">
+        <img src="/static/uploads/home-page.webp" class="img-responsive margin bg-1-img" >
+        </a>
+        <div class=".text-regular">
+            <h3>Adaptive IDN authoring web tool</h3>
+            <p>Julia Paranich. Universiteit van Amsterdam. Master Thesis for Information Systems Program - Track IS</p>
+            <br>
+        </div>
+
+        <div class="button-div">
+            <form action="{{url_for('ideation.create_intent_aim') }}" method="get">
+                <button type="submit" class="btn btn-lg custom-btn">Start Ideation Phase</button>
+            </form>
+        </div>
+
+
+    </div>
+{% endblock %}
+
+{% block footer %}
+    {{ super() }}
+{% endblock %}

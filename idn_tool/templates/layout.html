@@ -1,0 +1,55 @@
+
+{% extends "layout_initial.html" %}
+
+{% block head %}
+    {{ super() }}
+    <!--page configurations start-->
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static', filename='layout.css') }}">
+    <script src="{{url_for('static', filename='layout.js')}}"></script>
+    <!--page configurations end-->
+    <!--<nav class="navbar      "> -->
+    <nav class="navbar bg-4 navbar-expand-sm navbar-dark sticky-top">
+          <a class="navbar-brand" href="{{url_for('homepage')}}">Home</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav">
+
+             {% for item in navbar %}
+                {% if item.sublinks %}
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle menu-item" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      {{item.text}}
+                    </a>
+
+                    <div class="dropdown-menu stay-open" aria-labelledby="navbarDropdown">
+
+                        {% for sublink in item.sublinks %}
+                              <a class='dropdown-item'  href="{{sublink.url}}">{{sublink.text}}</a>
+                        {% endfor %}
+                    </div>
+                  </li>
+
+              {% elif item.url %}
+                  <li class="nav-item">
+                    <a class="nav-link" href="{{item.url}}">{{item.text}}</a>
+                  </li>
+              {% endif %}
+              {% endfor %}
+              </ul>
+
+          </div>
+        </nav>
+    {% endblock %}
+
+{% block content %}
+{% endblock %}
+
+{% block footer %}
+
+{{ super() }}
+
+{% endblock %}
+

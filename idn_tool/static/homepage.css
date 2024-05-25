@@ -1,0 +1,21 @@
+.bg-1-img{
+    display:inline;
+    width:40%;
+    height:auto;
+    border-radius: 30px;
+    box-shadow: 0 0 50px 20px rgba(0, 60, 67, .5) ;/* Greenish/Grayish Dark #77B0AA*/
+    }
+
+.custom-btn {
+    background-color: #135D66; /*second darkest*/
+    color: #E3FEF7; /*very very light*/
+    font-size: 16px;
+    letter-spacing: 5px;
+    font-size: 16px;
+    padding:20px;
+}
+
+.button-div{
+    text-align: right;
+    margin-right: 300px;}
+

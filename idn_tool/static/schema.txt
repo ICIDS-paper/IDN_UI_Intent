@@ -1,0 +1,74 @@
+CREATE DATABASE IF NOT EXISTS thesis_db;
+
+use thesis_db;
+
+DROP TABLE IF EXISTS ideation_content_structure_element_relationships;
+DROP TABLE IF EXISTS ideation_content_structure_elements;
+DROP TABLE IF EXISTS ideation_aim;
+DROP TABLE IF EXISTS ideation_media;
+DROP TABLE IF EXISTS ideation_general_settings;
+DROP TABLE IF EXISTS ideation_meaning_making;
+
+CREATE TABLE ideation_content_structure_elements (
+ideation_id varchar (50),
+element_id varchar(50),
+element_type varchar(50),
+element_name varchar(50),
+element_desc varchar(500),
+element_inserted_ts datetime
+);
+
+CREATE TABLE ideation_content_structure_element_relationships (
+structure_id varchar(50),
+relationship_id varchar(50),
+element_id varchar(50),
+related_element_id varchar(50),
+inserted_ts datetime()
+);
+
+
+CREATE TABLE ideation_aim (
+ideation_id varchar(50),
+topic varchar(50),
+title varchar(50),
+goal varchar(50), 
+audience varchar(500),
+inserted_ts datetime
+);
+
+
+CREATE TABLE ideation_media (
+ideation_id varchar(50),
+modality varchar(50),
+tool_text varchar(50),
+tool_visual varchar(50),
+media varchar(50),
+type varchar(50),
+genre varchar(50),
+plot_synopsis varchar(500),
+inserted_ts datetime
+);
+
+
+CREATE TABLE ideation_general_settings(
+ideation_id varchar(50),
+intent_interaction varchar(50),
+intent_background_story varchar(1000),
+tools varchar(50),
+notes varchar (500),
+inserted_ts datetime
+);
+
+
+create table meaning_making_content_structure_element_components(
+structure_id varchar(50),
+element_id varchar(50),
+component_id varchar(50),
+component_type varchar(50),
+component_tool varchar(50),
+component_object blob(),
+inserted_ts datetime
+);
+
+
+

@@ -1,0 +1,47 @@
+
+.footer {font-size: 16px;
+    letter-spacing: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    min-height:60px;}
+
+
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #003C43;/* Dark Green */
+  }
+
+.margin {margin-bottom: 20px;}
+
+.container-fluid {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.container-fluid-modal {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+.bg-4 {
+    background-color: #003C43; /* Dark Green */
+    color: #E3FEF7;
+}
+
+.bg-1 {
+ background-image: linear-gradient(to bottom, #E3FEF7, #135D66);
+/* #003C43 - darkest
+#135D66
+#77B0AA
+#E3FEF7 - lightest*/
+ /*this adds transparency: *background: rgba(119, 176, 170, .5); /* Greenish/Grayish Dark #77B0AA*/
+
+ height: 2000px;
+ }
+
+ .text-regular{
+ color:#003C43; /* Dark Green */
+ }
+

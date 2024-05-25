@@ -1,21 +1,15 @@
-pi# Thesis 
+# Thesis 
 <br> I'm using PyCharm and virtual environment (venv)
 # Steps to run the app:
-<br> activate your virtualenv
+<br> activate your virtualenv (in my case from thesis_project folder)
 <br> run: pip install -r requirements.txt in your terminal
 
-#UPDATE
-<br>start from thesis_project folder
-<br> activate the venv
-<br> go back to thesis_project folder
-<br> run: flask --app idn_tool run -> to initialize the application
-<br> run: flask --app idn_tool init-db -> instance folder is created with the db
-<br> run: flask --app idn_tool --debug run -> to enable continuous reload
-<br> run: flask --app idn_tool init-db -> to initialize the database
 
 #What is this
 An application called idn_tool
+Navigate to the idn_tool folder
 <br> run: flask run
+
 
 
 ##Styling

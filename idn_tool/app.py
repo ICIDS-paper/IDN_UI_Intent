@@ -41,7 +41,15 @@ def inject_dict_for_all_templates():
             "sublinks": [
                 {"text": "Test the Narrative", "url": url_for('validation.test_the_narrative')},
             ],
+        },
+        {
+            "text": "Narrative Engineer: Franz Kafka",
+        },
+
+        {
+            "text": "Project Name: Human Bug",
         }
+
     ]
     return dict(navbar=nav)
 

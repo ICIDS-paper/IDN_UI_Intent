@@ -32,9 +32,9 @@
                     </div>
                   </li>
 
-              {% elif item.url %}
-                  <li class="nav-item">
-                    <a class="nav-link" href="{{item.url}}">{{item.text}}</a>
+              {% elif item.text %}
+                  <li class="nav-item menu-info">
+                    {{item.text}}
                   </li>
               {% endif %}
               {% endfor %}

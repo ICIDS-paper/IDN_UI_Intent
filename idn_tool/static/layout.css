@@ -224,3 +224,9 @@ margin:10px;
   cursor: pointer;
    z-index: 1; /* Ensure close button is above other content */
 }
+
+
+.menu-info {
+    color: #77B0AA;
+    margin-left: 240px;
+}

@@ -8,7 +8,8 @@
 # What is this
 An application called idn_tool
 Navigate to the idn_tool folder
-<br> run: flask run
+<br> run (with continuous reload): flask --debug run  
+<br> run without reload: flask run
 
 # Notes
 

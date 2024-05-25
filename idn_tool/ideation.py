@@ -1,5 +1,3 @@
-import MySQLdb.cursors
-import pandas as pd
 from datetime import datetime
 from bokeh.embed import components
 from bokeh.transform import transform

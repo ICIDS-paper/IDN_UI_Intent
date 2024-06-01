@@ -173,7 +173,7 @@ def create_intent_general_settings():
             response = cursor.execute("INSERT INTO ideation_general_settings(ideation_id, intent_interaction, "
                                       "intent_background_story, tools, notes, inserted_ts) "
                                      "VALUES(%s,%s,%s,%s,%s,%s)",
-                                      (intent_id, intent_interaction, background_story, tools, notes, inserted_ts))
+                                      (intent_id, intent_interaction, background_story[:500], tools, notes, inserted_ts))
             mysql.get_db().commit()
             cursor.close()
             return redirect(url_for('ideation.show_intent_structure'))

@@ -1,0 +1,1464 @@
+00:00:00:08 - 00:00:02:04
+Speaker 1
+No problem.
+
+00:00:02:06 - 00:00:20:05
+Speaker 2
+Thank you. All right. So, yes, let's get started. So, first of all, before we start, if you don't mind, I ask you a couple of questions to understand who you are. Sure. Yeah. So your first question, what's your age?
+
+00:00:20:07 - 00:00:22:00
+Speaker 1
+Okay. 54.
+
+00:00:22:02 - 00:00:28:22
+Speaker 2
+Yeah. And how many years of experience do you have in ideal?
+
+00:00:28:24 - 00:00:39:12
+Speaker 1
+Oh, good question. I know when to start, but I guess in terms of doing research. Probably 15.
+
+00:00:39:12 - 00:00:41:11
+Speaker 2
+Years. Yes. Right.
+
+00:00:41:13 - 00:00:44:17
+Speaker 1
+Yeah. From the start of my Ph.D.. Yeah.
+
+00:00:44:19 - 00:00:45:19
+Speaker 2
+Okay.
+
+00:00:45:21 - 00:00:47:09
+Speaker 1
+Who doesn't?
+
+00:00:47:11 - 00:01:00:01
+Speaker 2
+And how would you identify yourself? Practitioner or academic or both? Both. Both. All right. And what is your experience and idea?
+
+00:01:00:03 - 00:01:25:15
+Speaker 1
+I guess research is one area. So I do research on, I guess, mainly authoring tools, different ways of authoring, interactive storytelling. But I also I do write and I publish non-interactive stories, but I also play around and make interactive stories, and I teach interactive storytelling.
+
+00:01:25:17 - 00:01:30:07
+Speaker 2
+Okay. Was which modalities did you work?
+
+00:01:30:09 - 00:01:33:11
+Speaker 1
+Um, mostly hypertext.
+
+00:01:33:13 - 00:01:34:14
+Speaker 2
+Okay, so.
+
+00:01:34:16 - 00:01:39:09
+Speaker 1
+Text with links, twine. And I don't know what will happen. Yeah.
+
+00:01:39:11 - 00:01:42:08
+Speaker 2
+Okay. Okay. Okay. But also.
+
+00:01:42:10 - 00:01:44:18
+Speaker 1
+Some game based narrative, but mostly game.
+
+00:01:44:18 - 00:01:50:14
+Speaker 2
+Based. So. And which tools I use. And so you have to twine.
+
+00:01:50:16 - 00:02:02:06
+Speaker 1
+Yeah. Twine. My students. I've worked with my students using Ren Pi, so it's a visual novel authoring tool.
+
+00:02:02:08 - 00:02:10:18
+Speaker 1
+Those are the main ones. Tried out other tools, but I don't know it would be considered. Yeah, I guess so. Yeah, but see.
+
+00:02:10:20 - 00:02:12:20
+Speaker 2
+I do not know what it is, honestly. Okay.
+
+00:02:12:23 - 00:02:14:19
+Speaker 1
+Okay. But I will.
+
+00:02:14:24 - 00:02:17:11
+Speaker 2
+Definitely want that will than that.
+
+00:02:17:13 - 00:02:30:09
+Speaker 1
+Yeah. It's a low res sort of pixel based tool for making games, but most of the interaction is dialog based. So I've had students use it for interactive stories. It's a free, free tool.
+
+00:02:30:10 - 00:03:03:13
+Speaker 2
+Yeah, it's a great tool. Yeah. Okay. Thank you. Then I think finally for validation, that's all. Can also let me start with the introduction. So yes, I'm a master's student at the University of Amsterdam and I am currently busy with my thesis. So it's sort of like at She advised me you was one of the people who can evaluate and give me some feedback on whatever I built with support and Frank of course.
+
+00:03:03:15 - 00:03:16:02
+Speaker 2
+So yeah, I'll let me share my screen. I can share. Yes. Do you see my advice on the environment?
+
+00:03:16:04 - 00:03:16:22
+Speaker 1
+Yes, I do.
+
+00:03:17:03 - 00:04:05:11
+Speaker 2
+Okay, good. So, yeah, So let me give you an introduction. On what I have a script moment on the what I'm supposed to do, what I want to tell. Yes. So the purpose of this project is to enhance, to explore ways to enhance ideas, and also an experience with the help of an adaptive sandbox, also in an environment of this kind of platform and to provide technical means to build a functioning idea, but adapt based on the creative goals and aiming for collaboration between itself and the narrative engineer as a process of creating ideas and based on research can be divided into four distinct phases ideation, meaning making interaction and validation.
+
+00:04:05:13 - 00:04:30:05
+Speaker 2
+As this particular project focuses on visualizing the prototype that illustrates the idea of an adaptable interface of a sandbox. Also in system, it's by no means intense as a tool, but rather as a way to illustrate a hypothesis and collect feedback on the idea. It is an interactive based application written and python connected to database in the backend and Basho is partial implementer solution.
+
+00:04:30:05 - 00:05:05:01
+Speaker 2
+Now that this and some flows that work and some don't, and it does cover ideation and partially meaning making phases of admiration. And to make the experiment clean, our idea is to focus on one particular story and to illustrate once stole story and to use it as an example for further exploration. So can we imagine that you are Franz Kafka and that you decide to, okay, do use this tool for your creative project.
+
+00:05:05:03 - 00:05:29:08
+Speaker 2
+You have some idea in mind. You want to write a story about Amanda, it becomes a bug and you want to use this though, to write it. I think you know the story. Maybe not you know the story, but someone follows it. So yes. So that's the setup. But please interrupt me any moment. I wanted originally to let you play, but it really doesn't make sense.
+
+00:05:29:08 - 00:06:00:00
+Speaker 2
+So I'll just walk you through the steps explicitly and you just give me anything back you you want. Okay. So, yeah, sounds good. Here to start our response, Kafka. I go to homepage, I go to start the new project. What do I see here? Let's see. Now. Attention. Your Franz Kafka project named Consumer Bank. And we see Swiss pages, which were part of what we what I read in to Little short Edition, meaning making validation.
+
+00:06:00:02 - 00:06:23:06
+Speaker 2
+So we start with filling up the extensive information about ideation and yeah, so topic. So you have five subsections aim, audience, media, genre content structure, general settings and we start populating the screen by screen. What do you think about first screen?
+
+00:06:23:08 - 00:06:26:14
+Speaker 1
+Okay. Yeah. Interesting topic.
+
+00:06:26:16 - 00:06:26:22
+Speaker 2
+Yeah.
+
+00:06:26:22 - 00:06:48:12
+Speaker 1
+So I guess the other author would have some idea for a topic, a story about a man who turns into a bug or something. Yeah. Yeah. Title. Yeah. I guess you need some title to start with. I'm assuming it's like a working title. Yeah. Yeah. Goal. So goals I pull them anyway. Can I see what the.
+
+00:06:48:14 - 00:06:52:06
+Speaker 2
+Yes.
+
+00:06:52:08 - 00:07:01:13
+Speaker 1
+Okay, that's interesting. So here I are thinking I'm assuming, I mean it's a good idea, an authoring tool which could be for fiction, but could be for anything. Right.
+
+00:07:01:15 - 00:07:13:02
+Speaker 2
+But it's actually for everything. Starting with like, Yeah, journalistic video, audio, but like, so now it's one short story. But the idea is to have this broad categories for any type of idea.
+
+00:07:13:03 - 00:07:26:20
+Speaker 1
+Yeah, that's, that's, that's good. Yeah. Okay. Yeah, that makes sense. And then audience contacts. So who is it for? Actually, that one's maybe the easiest. I guess what I'm thinking is some of these things as an author, you might not really know yet.
+
+00:07:26:24 - 00:07:28:15
+Speaker 2
+Yeah, right.
+
+00:07:28:17 - 00:07:33:01
+Speaker 1
+Yeah, but I'm assuming you can come back that idea.
+
+00:07:33:02 - 00:07:40:04
+Speaker 2
+Yes, you can come back and reiterate in particular implementation. It's all lovely I think.
+
+00:07:40:08 - 00:07:57:04
+Speaker 1
+But ideally yeah. Because you might think well definitely title you probably want to change later in the audience. You may have a good sense of okay, this is for I don't know, high school students age 15 to 2019 years. So you got some idea of who.
+
+00:07:57:06 - 00:07:59:11
+Speaker 2
+You are, but you can of.
+
+00:07:59:13 - 00:08:18:07
+Speaker 1
+Yeah. So I would imagine that some of these things yeah I guess my main thought is this it's a good starting point, but you probably need to iterate, so you need to work along. You might think, Oh yeah, actually I thought it was going to be something strange, but now it's actually something disturbing or something like that, right?
+
+00:08:18:09 - 00:08:20:20
+Speaker 1
+You might want to change some of this. Yeah.
+
+00:08:20:22 - 00:08:25:21
+Speaker 2
+Yeah, yeah. That's. Yeah, yeah.
+
+00:08:25:23 - 00:08:40:10
+Speaker 1
+So there's one other thing about that is I wonder it might also depend on as an author, what I think it. What's the consequence of writing something here. All right, so if I put a title.
+
+00:08:40:12 - 00:08:41:02
+Speaker 2
+And how.
+
+00:08:41:04 - 00:08:49:01
+Speaker 1
+Is it going to have some impact in the process or is it just for me to think about it? So because I haven't seen the rest of the tool, I don't know. Yeah.
+
+00:08:49:03 - 00:09:19:05
+Speaker 2
+Let me let me let me just instead of straight forward of like all this information is collected, but eventually what I'm using in the prototype is to visualize the content structure. Okay. So all this information basically we collected, but then we basically leave it as is. And the idea, of course, is to iterate upon it. But like what we I am working with is modality, because my, my, my blood type is only for Kafka.
+
+00:09:19:05 - 00:09:50:16
+Speaker 2
+So it would work for a modality, text or text, which also is to illustrate the concept, how it will manifest itself if I choose different types of modalities. So that's part which is important. What else is important is of course, media, because for now I choose fiction and so I has predefined components like a struct gluon content content structure components like the character event, etc. But for instance, for something else it would be some other components.
+
+00:09:50:22 - 00:09:57:21
+Speaker 2
+So basically this information of the collection for a space, just not like a topic audience, we let it be. So it's just a sampling.
+
+00:09:57:21 - 00:10:19:14
+Speaker 1
+Okay. Yeah. Yeah. I guess I'm thinking maybe because I've seen so many AI generative systems these days where what you write is a prompt and it's going to change what you get. Yeah, some people I was starting to think like if I write something for the title is that change what I get later on.
+
+00:10:19:16 - 00:10:38:17
+Speaker 2
+It's okay. It will if there is a slight small component, hard coded component, which I was not the one to build, but it's all a student ID and I just like put it in, we can discuss it, but there is a small piece of it about like about topic and the aiming audience know that this is not very modern.
+
+00:10:38:22 - 00:10:43:22
+Speaker 2
+So we go to the screen like into screens and I will explain this information.
+
+00:10:43:24 - 00:10:45:22
+Speaker 1
+I'm getting ahead. Okay.
+
+00:10:45:24 - 00:11:14:02
+Speaker 2
+So media and genre. So yeah, here we collect information about what kind of social media we'll use. So as I told you, let's start with text, because what I implemented this prototype is manifestations of text and text and visual. So if I do text, interface adapts and the tool prompts me to ask what kind of tool I want to use for, for the actual writing, my, my narrative.
+
+00:11:14:02 - 00:11:42:19
+Speaker 2
+So I just say something like Apache OpenOffice, whatever media A Again, as a tool, the implementation is populated for fiction only. But for instance, we already saw of all from Calgary to think about it, about, for instance, journalistic research. We can use different content structures like Yahoo's argumentation, models and all the other. Yeah, a body of knowledge. So it wasn't developed and accepted.
+
+00:11:42:21 - 00:12:12:09
+Speaker 2
+So but this part is just fiction. And then, yeah, we can go even narrower in definition, but for now it's yeah, short story and also this fiction. Okay, that's how it is. Initial plot synopsis. So we assume that this is not compulsory, but we assume that are also or you have an idea of what's going on. And I will just pre-populated something because that one day.
+
+00:12:12:11 - 00:12:15:07
+Speaker 1
+Yeah, yeah, it's a bug. Okay.
+
+00:12:15:09 - 00:12:22:14
+Speaker 2
+Yeah. Yeah. I didn't know, but apparently this year is anniversary of Kafka.
+
+00:12:22:14 - 00:12:24:22
+Speaker 1
+Oh. Oh, really? I didn't know that either.
+
+00:12:24:24 - 00:12:34:18
+Speaker 2
+So I was actually very appropriate. Yeah, I had the idea because, I mean, I love him. And then I like. Yes, what else we can do at the ball? Kafka. I do like Justice Universalism.
+
+00:12:34:20 - 00:12:37:00
+Speaker 1
+Very timely and good.
+
+00:12:37:02 - 00:12:41:00
+Speaker 2
+All right, So does this make sense?
+
+00:12:41:00 - 00:13:11:15
+Speaker 1
+It's yeah, I think the the only modality makes sense. Media, I'm not sure if it's the right word of English. Yeah. So it's like. But it's not really it's not a genre because you're right. Yeah. Yeah. It is the right term for what you've got down below and yes come back media I'm not sure what the right term is because it So can you pull that one down again.
+
+00:13:11:15 - 00:13:13:04
+Speaker 1
+You had like fiction.
+
+00:13:13:06 - 00:13:15:14
+Speaker 2
+Fiction this all this of.
+
+00:13:15:14 - 00:13:40:22
+Speaker 1
+Course yeah. Documentary. So I think that the problem I have here is as an author, I'm not sure if these five categories are the same type of thing. Right? You could as okay, a documentary is going to be nonfiction. Probably a video game is fiction. So I guess.
+
+00:13:40:22 - 00:13:43:03
+Speaker 2
+Because it's overlapping. Yeah.
+
+00:13:43:05 - 00:14:02:07
+Speaker 1
+Yes. Yeah, Yeah. So they're not strict different categories because you can say one difference you're making and then it's almost like this uniform. Yeah, yeah. That the delivery format, like the output is going to be, is it going to be a video game or even their video game versus documentary? You have a documentary video game.
+
+00:14:02:07 - 00:14:03:13
+Speaker 2
+Yeah, yeah, yeah.
+
+00:14:03:15 - 00:14:09:21
+Speaker 1
+I think there's a little bit of overlapping. So yes. To break this down a bit more. Yeah.
+
+00:14:09:23 - 00:14:18:24
+Speaker 2
+I must say that I did read there is this in the core or cost action and then the held by multiple are like brothers.
+
+00:14:19:01 - 00:14:23:07
+Speaker 1
+Worked on one of those. Yeah I think there's some I can see this is somewhat familiar from that. Yeah.
+
+00:14:23:08 - 00:14:29:22
+Speaker 2
+Yes. So I read it and this particular division I just took for one of the papers. So yeah.
+
+00:14:29:24 - 00:14:50:22
+Speaker 1
+I think it's a good starting point but I think yeah, you probably would want to get some authors to try it and maybe get some better ideas. But it's, it's tricky because you don't want to make it too complicated either. You don't want to have that in ten different things that fill in on this page. So it's sort of intuitively okay, but if you think about it too much, you can get confused.
+
+00:14:50:22 - 00:14:53:07
+Speaker 1
+Yeah, but it needs a bit more work. I think.
+
+00:14:53:13 - 00:15:01:02
+Speaker 2
+Yeah, No, absolutely. Because also a writer, I wouldn't imagine that a Franz Kafka would understand that what she's writing is also just fiction.
+
+00:15:01:04 - 00:15:09:22
+Speaker 1
+Yeah, he's right. But he feels like writing. So that's maybe a horror. It could be horror, right? It's. Yeah.
+
+00:15:09:24 - 00:15:12:11
+Speaker 2
+Yeah, yeah, yeah.
+
+00:15:12:13 - 00:15:14:19
+Speaker 1
+Yeah. It's mainly the media. When I think.
+
+00:15:14:21 - 00:15:56:18
+Speaker 2
+Of media as a programmatic. Okay. Yeah, Yeah. Okay, great. So next step is content structure. And what we thought about is that for particular fiction, I come up with distinct elements building blocks for content, which in this case, yeah, it's limited to character, location and developed for other types of media or delivery formats. It can be something else and I'm trying to elaborate a tiny bit on this for journalism, but like just a slide in that one paragraph of how it would be changed.
+
+00:15:56:20 - 00:16:00:00
+Speaker 2
+But fiction that suits. Yeah, okay.
+
+00:16:00:01 - 00:16:02:00
+Speaker 1
+Yeah. Character, location, event. That makes sense.
+
+00:16:02:00 - 00:16:22:03
+Speaker 2
+Okay, So yeah, this is just a screen that like I populate that exists in characters. So that idea is that I have some blog in mind already. So yeah, I'm going, I go some saw I became a bug. My son will, he dropped me and then I died. And then family was carrying but then stopped and it'll happen in the bedroom.
+
+00:16:22:05 - 00:16:49:18
+Speaker 2
+So I have a small skeleton of what I want. I still can add something. A still kind of something like it. Yeah. So you can add relationships, etc.. So relationships can be added between events and locations, events and events and events of characters. So now there is no support between persons, character and characters. So yeah, but that's got the built built upon.
+
+00:16:49:20 - 00:17:03:03
+Speaker 1
+Yeah, that would make sense. So is this you pre-populated this but would if I was doing this myself from scratch, is this something the system can detect like there's a Greg or something that sounds like a name so it's a character or.
+
+00:17:03:06 - 00:17:14:02
+Speaker 2
+Yeah, a killer. He does a forum so I can create. So I think, Oh yeah, I see what it is. Yeah. So I implemented a simple and simple input solution. Yeah.
+
+00:17:14:04 - 00:17:19:07
+Speaker 1
+Okay. Sure. Yeah. But it's not doing anything automatic based on what I typed in the previous. So.
+
+00:17:19:07 - 00:17:24:00
+Speaker 2
+No, no, no, no, no, no, no, no, no. I'm not in good enough. I'm okay.
+
+00:17:24:05 - 00:17:29:10
+Speaker 1
+Yeah, I can imagine that. That's one possible thing to do. Yeah.
+
+00:17:29:12 - 00:17:59:07
+Speaker 2
+Yeah. So yeah, that's it. You pre-populated the building elements of your content blast screen. Oh, well, in Ideation Place, and this prototype is whether you want interaction or not. And it was not developed further than the Franz Kafka story, which is not interactive. So the prototype works for no interaction. The rest should be iterated upon and see where we can edit and how it would work.
+
+00:17:59:07 - 00:18:06:13
+Speaker 2
+Mechanics for directions. So now, even though I call it IDM, it's basically prototypes will be now too. So yeah.
+
+00:18:06:13 - 00:18:08:12
+Speaker 1
+So is this the end?
+
+00:18:08:14 - 00:18:16:01
+Speaker 2
+It's DM Yes, We're not to put the put things around. Yeah. Yeah.
+
+00:18:16:03 - 00:18:24:02
+Speaker 1
+Okay. So yeah, so I guess I just have one comment about the, the, I don't know if the categories under range of interaction.
+
+00:18:24:04 - 00:18:26:05
+Speaker 2
+Is.
+
+00:18:26:07 - 00:18:30:13
+Speaker 1
+Very thought through yet, but no, it's just a.
+
+00:18:30:19 - 00:18:32:11
+Speaker 2
+Scuttlebutt that.
+
+00:18:32:13 - 00:18:43:15
+Speaker 1
+Okay. Yeah. So I was just thinking like simple. No one simple makes sense, but complicated versus complex, huh? Yeah, not really. They don't really come one after the other. I think they're different.
+
+00:18:43:17 - 00:18:45:02
+Speaker 2
+Yeah, yeah, yeah.
+
+00:18:45:02 - 00:18:48:12
+Speaker 1
+So this I mean, this is probably just a preliminary.
+
+00:18:48:14 - 00:19:10:16
+Speaker 2
+That's a preliminary setup. And then I think the idea would be to. Yeah. Is it simple to at least come up with. So yeah, we'll sort of follow up already. I interviewed someone, some people who make games. Angela gave me mechanics, different endings, was frankly discussed like points of view and constants. So yeah, it's a lot of work, but for now it's just.
+
+00:19:10:16 - 00:19:11:04
+Speaker 2
+Yeah.
+
+00:19:11:06 - 00:19:12:08
+Speaker 1
+Yeah. This is a good start.
+
+00:19:12:08 - 00:19:38:08
+Speaker 2
+Yeah, yeah, yeah. Okay. And now we come to kind of an ace thing. So would you like to generate a background story for your analysis? I say yes. And? And Nasr follows Student has created an external service which uses charge party to generate the background story. So what it does, what I do and it's we have no integration.
+
+00:19:38:08 - 00:20:04:24
+Speaker 2
+So it's all that I'm just telling you as this but if I click generate button in the background, what happened to all the information I filled in so far? So characters, events, locations, initial plot title, amount of words, amount of words. I have got some word I send it. We are in JSON to somewhere and then there it from subject to generate a background story.
+
+00:20:05:01 - 00:20:29:20
+Speaker 2
+And then you could read in the bizarre twist that could only be la la la la la la. So that's my yes. Yeah. Okay. And then I also could give multiple feedback. So I will just yeah, it's also camcorder. So I, I have this feedback. Like for instance, I wrote that like the feedback I wrote a please provide more context on the time and cultural specifics was a storyline.
+
+00:20:29:20 - 00:20:50:06
+Speaker 2
+This also makes a character or Greg or sister more prominent. Lastly, right, it using a bit of a Dostoyevsky style. So that's the feedback I sent. And then yeah, yeah, it's hardcoded, so I'll just do refine and now I have this in the claustrophobic material.
+
+00:20:50:08 - 00:21:03:07
+Speaker 2
+So yeah, that's a creative support offering tool which at ideation stage helps also to come up with standalone story. Well, yeah.
+
+00:21:03:09 - 00:21:13:20
+Speaker 1
+Yeah. I'm okay. I mean I won't comment on the quality of the text because that's, that's the other students project, not yours.
+
+00:21:13:22 - 00:21:20:22
+Speaker 2
+But both even talk to me about text. I was like, Oh, this will shoot myself. And that was, well, okay.
+
+00:21:20:24 - 00:21:44:05
+Speaker 1
+Yeah, I mean, that's a different problem. So I think that, I think the idea of having something to help get you thinking is, is useful. But it seems to me like in terms of how people are using AI generative AI that seems like the most productive like rather than trying to actual actually generate content that you're going to use in your story, but instead just get some ideas.
+
+00:21:44:07 - 00:21:59:23
+Speaker 1
+All right. So I mean, this is one of these I'm sure at your school it's the same thing. Our school, we're freaking out about students using AI all the time and how do we deal with it. And we basically have accept that we can't stop it, but instead we try and get students to think about where would it fit in the process.
+
+00:21:59:23 - 00:22:19:17
+Speaker 1
+Yeah, and I think for brainstorming and just to give you some ideas which you then use to start your own writing process, then it makes sense. Yeah. Mm hmm. But copying and pasting from this or including it. Yeah. No, you said it's terrible, so I don't think you want to use it directly, but. But just get some ideas.
+
+00:22:19:17 - 00:22:41:06
+Speaker 1
+And actually the iterative process of providing feedback and regenerating, I think also makes sense because then you can and then it gives you something that you can then work from for your actual writing. Yeah, I don't know if I would use it, but I think it's I'm not sure if I would. I'd have to try, actually. I've never tried.
+
+00:22:41:08 - 00:23:05:20
+Speaker 1
+I mean, I've played around a little bit, which I get, but I haven't actually ever used it in an actual task I'm doing. I just contemplate around with what sort of like what you were saying there. I try writing this as Dostoyevsky, and I'll try writing it as Shakespeare. Now try writing it as, you know, like a Simpsons episode or something and see and see what happens and and just to see what it can do and to get some ideas going.
+
+00:23:05:22 - 00:23:12:18
+Speaker 1
+So if you're going to include, I think this would be the most useful way to to make use of it just to get some brainstorming help.
+
+00:23:12:20 - 00:23:30:12
+Speaker 2
+But then in this framing, because I'm obviously a bit confused because we have initial plot, when I say, okay, a guy becomes a bug in a later stage, you collect already all the characters with the initial plot and you add something else which you call background story. So this framing is it. Yeah.
+
+00:23:30:14 - 00:23:55:20
+Speaker 1
+Okay. I see what you mean. Yeah. Is that really does it make sense since you've already written an initial plot? I think this is to I assume the reason you have this is to try to flesh out the background story to get some more. More ideas. Yeah. Some more depth to it. Yeah. But maybe it depends on who that target audience is.
+
+00:23:55:22 - 00:24:15:00
+Speaker 1
+Yeah. For that, for the tool. I mean not for the, not for the story. If you're a somewhat if you're an beginning author, maybe you would need this. But if you are an experienced author, maybe you're an experienced fiction author, but you haven't done IDM, I think this would not make any sense for you.
+
+00:24:15:02 - 00:24:15:22
+Speaker 2
+Yeah.
+
+00:24:15:24 - 00:24:23:23
+Speaker 1
+Yeah. Because it's not really this that you need help with. It's probably the idea and part of it that you need help with.
+
+00:24:24:00 - 00:25:09:13
+Speaker 2
+But it's not. So that that was the part you predicted would be here. Yeah. All right. Next. It's just again, a skeleton, right? So Strong has been working on idea for a while already and there were a bunch of students who created different types of modules. So the idea is to and that, of course, can be polished. But the idea is that at ideation stage you already have some notion of like some tools and for instance, some previous master was like, So you go to language support, support like, yeah, figures of speech, etc., etc., all for instance, individualized offering support.
+
+00:25:09:13 - 00:25:27:16
+Speaker 2
+So I was from Ukraine and I have my own context and I read my own books in childhood, so maybe that could help me. So basic idea is to have ideation space, to have a bunch of modules with explanations, understand what they do, and before you start actual writing, you're already like, tick, tick, tick, tick, tick. I want this and this and this and this.
+
+00:25:27:18 - 00:25:30:12
+Speaker 2
+So that's an idea what to think about it.
+
+00:25:30:14 - 00:25:57:22
+Speaker 1
+I'm I think it depends on whether, you know, what these tools are. Yeah. And whether they're I mean whether, you know, at this point if you need them. So okay what it feels to me a bit like is if I install I don't know, unity or something and it asks me do you need all these packages.
+
+00:25:57:24 - 00:25:59:01
+Speaker 2
+Yeah. Yeah.
+
+00:25:59:03 - 00:26:16:12
+Speaker 1
+I have no idea. I just know it's going to take up like gigabytes on my hard drive. So I usually say no. And then I realized actually I needed some of them. So I think, yeah, it's not a problem, but maybe it's related to the question of iterating before I, if I can, if I choose these tools now, am I.
+
+00:26:16:14 - 00:26:30:20
+Speaker 1
+Yeah. If I don't with a tool now am I stuck with never using it. Can I add it. Yeah. I think it would be important if I realized oh yeah, I figured that language support. I didn't think I would need that. But actually I find I need some figurative language. Can I go back and check it again?
+
+00:26:30:22 - 00:26:41:13
+Speaker 2
+Yeah. Mm hmm. So now not so now. The whole process. So, I mean, they are, but they. I will write it all that it's. Yeah, but in general it's a good idea to use.
+
+00:26:41:13 - 00:26:49:16
+Speaker 1
+I think it's a good idea to allow, use it because you don't want everything to be in one tool, you want to be able to put modules in I think. Yeah.
+
+00:26:49:18 - 00:26:51:00
+Speaker 2
+Yeah, exactly.
+
+00:26:51:02 - 00:26:56:03
+Speaker 1
+And you don't want to have to keep going through different tools. So if you have some way of plugging in, I think it makes sense. Yeah.
+
+00:26:56:05 - 00:27:21:06
+Speaker 2
+Yeah. Oh it a So now that's the last page of ideation. The next step is to visualize all intents structure. That's how I call it based on the paper stroke and as I mentioned. So now all the information is collected so far, we kind of let it be. We focus on the all content and all sorts of actions like media and for instance, install.
+
+00:27:21:06 - 00:27:24:19
+Speaker 2
+So not all the information is reflected in visualization. So yeah.
+
+00:27:24:24 - 00:27:25:08
+Speaker 1
+Sure.
+
+00:27:25:14 - 00:27:34:15
+Speaker 2
+We go to show some structure and it takes a while and we see visualization. That's as far as I could make it. Sorry.
+
+00:27:34:17 - 00:27:39:22
+Speaker 1
+Oh, back into the bedroom. Okay, so you've got the characters, you've got the.
+
+00:27:39:24 - 00:28:15:14
+Speaker 2
+I've got all the elements. Yes. So locations, triangles, circles, characters, events, squares, relationships. So it all kind those dynamics. So it's based on whatever you have as an input. Ah, that's as far as I could go in internal structure. So it shows you what you have created in terms of content. And after that I want to one step further to a goal to already meaning making sense where you actually start designing your own narrative.
+
+00:28:15:16 - 00:28:27:23
+Speaker 2
+So this is just for visualization. You cannot do anything with this. You go to sets for your information and then you go to the next stage. So you are out of ideation. You are aiming at making executable statement structure.
+
+00:28:27:23 - 00:28:29:00
+Speaker 1
+Okay.
+
+00:28:29:02 - 00:28:49:24
+Speaker 2
+And here I pre-populated the morsels idea is that it's your place and you start playing and adding elements and deleting elements. So that's why I put populate. That's already a source thing. Before I had SWE and now I have like eight or something and character are more acceptable. So this is your canvas to start actually building it visually.
+
+00:28:50:01 - 00:28:52:17
+Speaker 2
+Yeah. Well, do you think.
+
+00:28:52:19 - 00:29:02:24
+Speaker 1
+I think it answers. I was about to ask a question which was can I still see that intense structure when I get here and I can. So I think that's good. Yeah. I was expecting, hoping.
+
+00:29:03:01 - 00:29:05:04
+Speaker 2
+That was going to work again.
+
+00:29:05:06 - 00:29:36:24
+Speaker 1
+Yeah. Is there are some tools I've seen or is it, do you know in KL So there's a tool called incl writer in CLI writer. It's there's a company called in call that does the number of games. So they have this little tool, an online tool that they I don't know if they still support it, but I used to be available and what was problematic about it is you would have your text and then you would switch to a visualization, but you couldn't do anything with it.
+
+00:29:37:01 - 00:29:55:23
+Speaker 1
+You just went back to the text and then you did stuff. And then so it was not integrated into what you're doing. It wasn't manipulable. Whereas here you have like ADD element, Li element. All of that is together with the visualization. So I think that that's that's quite important. It's a good thing to do this.
+
+00:29:56:00 - 00:30:00:03
+Speaker 2
+Oh Alex I have a free version of this. Also have nice.
+
+00:30:00:03 - 00:30:02:11
+Speaker 1
+Oh, you're running out of time. Yeah. Yeah.
+
+00:30:02:13 - 00:30:07:06
+Speaker 2
+After you. I mean, I have all the time, but I think you don't, so yeah.
+
+00:30:07:08 - 00:30:10:15
+Speaker 1
+I'm okay for a bit longer. So, I mean, if you want to.
+
+00:30:10:17 - 00:30:15:10
+Speaker 2
+I'll send you that when we are out. I'll send you a new user meeting in the mail.
+
+00:30:15:10 - 00:30:24:22
+Speaker 1
+Okay. Sounds good. Yeah. Yes, it's. And it's. I'll check my email right away and then I. Yes. Yeah. So let's just go and then suddenly it'll die. And then I'll.
+
+00:30:24:24 - 00:30:28:02
+Speaker 2
+Agree that if it dies with me. Okay?
+
+00:30:28:02 - 00:30:40:20
+Speaker 1
+Yes. Yeah. Okay. Sounds good. So, yeah, I was just saying, I think it's is good that this is something you can work with interactively rather than just a visualization. A static visualization.
+
+00:30:40:22 - 00:30:41:18
+Speaker 2
+Yeah. Yeah.
+
+00:30:41:22 - 00:31:03:13
+Speaker 1
+Because that would think that it's much more useful for the author to be able to see things change as you add things and make them. I guess my question might be how do you think about the text? Because we chose this to be a text based story, right?
+
+00:31:03:15 - 00:31:05:16
+Speaker 2
+Well, now. Yes, yes. Yeah. Yeah.
+
+00:31:05:16 - 00:31:08:09
+Speaker 1
+So maybe I'm curious. Happen to me.
+
+00:31:08:11 - 00:31:11:22
+Speaker 2
+Yeah, yeah, yeah. I flew out of the news yesterday.
+
+00:31:11:24 - 00:31:20:11
+Speaker 1
+Yeah. So if I've got the family app, Gregor, I've got things that happen. Yeah, but how good is that then. So. Yeah.
+
+00:31:20:11 - 00:31:45:10
+Speaker 2
+What I'm saying what we can do, we can. So how do we envision each of those elements is that they are a collection of different components and then the type of this components is something that was previously defined in ideation space. So for instance, if I click on office manager, I first see. So it's like modular. The idea is that you can just delete all of them.
+
+00:31:45:10 - 00:32:08:03
+Speaker 2
+So you have a description. That's something we created an original script and then component is pre-populated and it's only text and here and buttons you can for instance the input text component OpenOffice. So basically if I click on it, the idea is that it will open my open office. Then I will save it all. It will of course, the whole tool is powered by a knowledge graph which is small, but it is.
+
+00:32:08:05 - 00:32:28:24
+Speaker 2
+And then it will go to the knowledge graph so it and repository. And then in this visualization you will have a small snippets of this document. So that's basically how it manifests next text modality. And I have another example. So text and visual and I'll show it to you quickly. But yeah, first lesson skills are fun.
+
+00:32:29:01 - 00:32:33:01
+Speaker 1
+Okay. Yeah, I see the figurative language support is here.
+
+00:32:33:01 - 00:32:45:15
+Speaker 2
+As far as what we are, what I do, I make it adaptable. So if I chose that, hey, I want to use all of this tools, I have this buttons which will tell me otherwise I will not show them not to over bother.
+
+00:32:45:17 - 00:32:56:06
+Speaker 1
+Yeah, that makes sense. Okay, so I understand that now. So each of these has some, each of the different components in the visualization has some text associated with it.
+
+00:32:56:10 - 00:33:22:03
+Speaker 2
+Exactly. Yeah. Yeah. Okay. And it can be multiple snippets. So basically we see the component as a collection because of course you can have like a tax component on something else, maybe one visualization from one artist, from another artist, and then you will find out which one suits better. Your style, style story. So this kind of this kind of ideation stuff.
+
+00:33:22:05 - 00:33:33:14
+Speaker 2
+So yeah, that I will briefly show you. Do we have any more questions for this part? Because I want to quickly guide you through the visual process as well, very quickly.
+
+00:33:33:16 - 00:33:41:03
+Speaker 1
+Sure. Yeah. I think the main uncertainty I have is how what is my story going to be like?
+
+00:33:41:05 - 00:33:43:22
+Speaker 2
+So that does not covered. So that's exactly yes.
+
+00:33:44:01 - 00:34:11:14
+Speaker 1
+Yet. So the reason I'm thinking is that I remember when I was teaching my students when they said we either used my tool or we used twine, which are very similar. And I think for some reason, even though it is are working with nodes and links and putting together a hypertext, a lot of them wrote this story in word and then they broke it up into pieces and copied it into the hypertext.
+
+00:34:11:15 - 00:34:38:06
+Speaker 1
+And I asked them why? Because this visualization in twine a bit like what you have here, I suggested. But they said they want to see the whole story and they need to visualize the whole thing. And I think I know what they mean because if I'm looking at this, I don't know, assuming it's an non-interactive story. Yeah. As as an author, I want to write the story.
+
+00:34:38:08 - 00:35:03:06
+Speaker 1
+I want to see the text, right? I mean, not just I think the thing is, as an author, I'm not just thinking about the elements of the story world. I'm also thinking about how it's written in the language right. And this I guess my concern would be that by fragmenting all the pieces, I don't see the actual anatomy.
+
+00:35:03:09 - 00:35:11:17
+Speaker 2
+Absolutely. This is just the piece of it. So like I would imagine that here under the meaning making, we have narrative design or whatever suitable term we.
+
+00:35:11:18 - 00:35:13:01
+Speaker 1
+Can start to do that.
+
+00:35:13:03 - 00:35:34:13
+Speaker 2
+And then we have an option as like actual writing or story generation or something like that where yeah, but it's covers on this part. But obviously for me it's also super fragmented. I would not start from here. I would write that first, but like that sucks along the way. So that's just one of one of the ways to show it, right?
+
+00:35:34:15 - 00:35:46:14
+Speaker 1
+Sure. Yeah, exactly. Yeah. So maybe the the my main comment about this is again, iteration writing. If you can go back and forth, I think that would be useful.
+
+00:35:46:16 - 00:36:06:13
+Speaker 2
+A question about back and forth because right now the my idea was that once you are done with ideation, your ideation basically is finished. And as soon as you are here in meaning making, there is no way back. Yes. Yeah. And if there is a way back, it's a new project and then you start to get to understand.
+
+00:36:06:13 - 00:36:13:14
+Speaker 2
+Yeah. Would you expect this things to be able to jump between phases actually and then. Yeah.
+
+00:36:13:16 - 00:36:39:18
+Speaker 1
+I'm not sure. It depends on how much. Would there be a reason for me to go back and change things under it? Maybe not. It feels more like going back and forth between this diagram and the actual story that that going back and forth between those would be most useful, I think, but maybe difficult to reconstruct this. If I go and I write a whole bunch of stuff.
+
+00:36:39:20 - 00:36:43:22
+Speaker 1
+I'm not sure how technically hard it is to get back to an accurate diagram.
+
+00:36:43:24 - 00:36:50:10
+Speaker 2
+Yeah, I think that's actually pretty typical. I think.
+
+00:36:50:12 - 00:36:53:11
+Speaker 1
+Yeah, but it feels like that's what I would want to do.
+
+00:36:53:13 - 00:36:59:11
+Speaker 2
+Yeah. Yeah, yeah. That, that, that it can be a new project for somebody already.
+
+00:36:59:13 - 00:37:04:08
+Speaker 1
+Another student can do that after you.
+
+00:37:04:10 - 00:37:19:05
+Speaker 2
+Okay. Yeah. So that makes a lot of sense. Yeah, but you mentioned that, for instance, you would want to go back and see what was it you had gone here. You can do characters, but you cannot change audience, for instance. So that.
+
+00:37:19:09 - 00:37:38:22
+Speaker 1
+Yeah, exactly. So if I thought maybe the audience had change, maybe the, the, the aim of the story might change. So some of those things that are very early in the ideation, maybe I would need to change them. But then again, if it doesn't do anything in the tool, maybe I don't need to actually go back and write it down.
+
+00:37:38:22 - 00:37:58:08
+Speaker 1
+And so it depends on what if those ideas of course, if the things you intend to start are just to get me thinking as, then it's okay, then I no need to go back. But if they will do something to the background narrative or that will change something about the way that the tool is behaving, then I might want to change it.
+
+00:37:58:08 - 00:38:08:05
+Speaker 1
+Like if something about if I change it from absurdist to horror. Yeah. And something becomes available that wasn't available before, I might want to.
+
+00:38:08:07 - 00:38:26:13
+Speaker 2
+Think it might be a good idea to basically replicate in one way or another. So ideation it was to get to thinking like this, whatever. And then you wanted me to make and you will have to have influence on each and every component. You change that ideation. So aviation builds a structure which you will have, and that's what you had.
+
+00:38:26:16 - 00:38:34:21
+Speaker 2
+Hey, remember, remember And now you want the change, you have all the capacities. So I think the tool should just allow you to change basically everything. You design ideation, right?
+
+00:38:34:23 - 00:38:39:17
+Speaker 1
+Yeah. So not going back, but no, no, I said some settings that you can adjust.
+
+00:38:39:19 - 00:38:53:17
+Speaker 2
+And you know, you remember that it was this book, now it's this and the tool just reminds you that, hey, now it's cool. But yeah, so maybe no going back in that the still static but but it's a double thing double what our support for. Okay that makes sense.
+
+00:38:53:19 - 00:38:56:23
+Speaker 1
+Makes sense. Yeah. I think we're going to it's going to die and.
+
+00:38:57:00 - 00:39:02:10
+Speaker 2
+I make it also a medium and thank you so much. I see you soon. Yes, I see you in a minute. Yes, Thanks.
+
+00:00:00:06 - 00:00:02:17
+Speaker 1
+What's going on?
+
+00:00:02:19 - 00:00:06:06
+Speaker 2
+That was a bit provocative. Thank you for staying with me.
+
+00:00:06:08 - 00:00:08:21
+Speaker 3
+No problem. Yes.
+
+00:00:08:23 - 00:00:19:24
+Speaker 2
+So where we were. Yes. So we discussed that it would be good to replicate all the things of ideation and meeting, making a lot of our tool insulins also.
+
+00:00:20:04 - 00:00:22:21
+Speaker 3
+Not just them. Yeah. Yeah.
+
+00:00:22:23 - 00:00:55:00
+Speaker 2
+So, yeah, I want to quickly guide you through the what I implemented for also for visual stuff. So I'll just do something, something entertainment or just to show you. So here now I'm using text and visual and I have two types of tools young, old, bad, whatever. Inkscape And the function of the short story, you know, then I don't select any of those.
+
+00:00:55:02 - 00:01:01:07
+Speaker 3
+Oh, I don't know.
+
+00:01:01:07 - 00:01:20:11
+Speaker 2
+I see that for instance, the interface in edit it's changed so I don't have any of the buttons to use any of those packages. I do have now two buttons import text, input, visual and that's, that's an example.
+
+00:01:20:13 - 00:01:21:06
+Speaker 3
+Yes.
+
+00:01:21:08 - 00:01:22:24
+Speaker 2
+That's an example. Yeah.
+
+00:01:23:01 - 00:01:39:19
+Speaker 1
+Okay. Yeah, that's good. So that allows you to smoothly integrate images. I mean, imagine if this is a yeah, some sort of a hypertext sort of story or in this case attractive. Then you can position those illustrations somewhere with your text.
+
+00:01:39:21 - 00:01:40:21
+Speaker 3
+Yeah.
+
+00:01:40:23 - 00:01:51:17
+Speaker 1
+But so I guess it would be the same question as before. Like when I see the actual story, I would like to have some control over where image goes and how it relates.
+
+00:01:51:21 - 00:01:54:06
+Speaker 3
+Mm hmm.
+
+00:01:54:08 - 00:02:08:02
+Speaker 1
+But I guess it depends on what that final story looks like, right? If it's a short story, it might just be a matter of deciding when does this appear? Is it whenever the boss appears, this picture is shown.
+
+00:02:08:04 - 00:02:09:16
+Speaker 3
+Or.
+
+00:02:09:18 - 00:02:18:22
+Speaker 1
+The first time the bosses mentioned or. Yeah, how would you. Yeah, how, how much control as an author what I have over the use of this image in the.
+
+00:02:18:24 - 00:02:20:00
+Speaker 2
+Yeah.
+
+00:02:20:02 - 00:02:23:00
+Speaker 1
+But again that's that's later on in the process. But I think that would be.
+
+00:02:23:03 - 00:02:24:10
+Speaker 3
+May I would.
+
+00:02:24:12 - 00:02:44:20
+Speaker 2
+Ask so you mentioned your students are actually were writing the whole story in text in the design we know it's just a passage just etc.. How would you do have any like vision maybe what you worked with, how would you see the space of actual story creation? Because I didn't think about it and I don't. Yeah, that's as far as I know.
+
+00:02:44:22 - 00:02:53:13
+Speaker 2
+So how would you like, what would you like? Even the embedded like here, How would you see that. But I wouldn't go.
+
+00:02:53:15 - 00:03:34:22
+Speaker 1
+I yeah I, it almost feels like it would be a different view. I guess because you have meaning making and then validation is the next one, right. It's here but it feels like I would need somewhere. Like, I don't know, maybe I'm. I'm just thinking aloud. So you have to test this narrative, right? So I assume right now what you'd have to do is test it and see what it looks like and then come back and somehow change how it's going to look.
+
+00:03:34:24 - 00:03:43:02
+Speaker 1
+So yeah, I almost imagine it would be either side by side or you switch back and forth between seeing this graph.
+
+00:03:43:06 - 00:03:44:01
+Speaker 2
+Here.
+
+00:03:44:03 - 00:03:48:03
+Speaker 1
+And also seeing the story that's going to result.
+
+00:03:48:05 - 00:03:54:07
+Speaker 2
+And it can be assumptions quite similar or just so yeah, just different view. Okay. Yeah.
+
+00:03:54:09 - 00:04:16:11
+Speaker 1
+Yeah, yeah. So I think it would be a question. Maybe it's partly a technical issue, like how responsive would it be like if I change the graph and I change something here, Do you need to take some time to render it and then make the visual, make the actual story? But as an I would like to see that at the same time, I think I want to see if I change anything here.
+
+00:04:16:13 - 00:04:25:02
+Speaker 1
+Now, if I make a new relationship between the charwoman and the office manager, what happens to my story, Right?
+
+00:04:25:04 - 00:04:27:20
+Speaker 3
+Yeah, yeah, yeah.
+
+00:04:27:23 - 00:04:46:02
+Speaker 1
+So it's really, I guess, understanding. How do I get the story I want, right? How do I not just the story in the sort of story versus discourse sense, but I guess how do I get the discourse I want, how do I get the text, the final version of this that I.
+
+00:04:46:02 - 00:04:50:11
+Speaker 3
+Want to use? Right.
+
+00:04:50:13 - 00:04:59:11
+Speaker 1
+So I could imagine it. Yeah. You can have another panel down the right hand side, which is the story that that text and then I can see when I change that.
+
+00:04:59:13 - 00:05:00:13
+Speaker 3
+Yeah.
+
+00:05:00:15 - 00:05:02:05
+Speaker 1
+What's happening on the other side.
+
+00:05:02:07 - 00:05:04:09
+Speaker 3
+Yeah, yeah, yeah.
+
+00:05:04:11 - 00:05:07:09
+Speaker 2
+That's, that's also a good part for future work.
+
+00:05:07:11 - 00:05:10:00
+Speaker 1
+Yeah. Yeah. So someone else.
+
+00:05:10:02 - 00:05:11:08
+Speaker 3
+Yeah. Yeah.
+
+00:05:11:10 - 00:05:26:05
+Speaker 2
+Okay. I have that's, that's all I wanted to show you for the prototype. Yeah. Yeah. So I also wonder, like, do you have any further questions? Because I also have some reflection questions.
+
+00:05:26:07 - 00:05:44:03
+Speaker 1
+Oh, sure. Yeah. Yeah. I think most of my questions are probably outside the scope of your project because I'm just wondering, what would the test this narrative look like? And yeah, so I think that's not something you're doing, right?
+
+00:05:44:04 - 00:05:45:16
+Speaker 3
+Not normal.
+
+00:05:45:18 - 00:05:47:14
+Speaker 1
+Okay. So I think.
+
+00:05:47:16 - 00:05:52:13
+Speaker 3
+That's where you go. But that's I, I almost go to project.
+
+00:05:52:14 - 00:06:02:03
+Speaker 1
+That's exactly what it is. Yeah. Perfect. But I think it's in the bigger project it needs to be thought about. But yeah it's maybe that's Frank's problem, not yours.
+
+00:06:02:05 - 00:06:04:10
+Speaker 3
+Yeah, yeah, yeah.
+
+00:06:04:12 - 00:06:10:01
+Speaker 2
+Okay, so let me then go to my questions.
+
+00:06:10:03 - 00:06:11:05
+Speaker 3
+Or.
+
+00:06:11:07 - 00:06:22:15
+Speaker 2
+Post for selection. So yeah. What were your first impressions of the prototype? I think most of them you already answered like on the goal. But yeah, if you can still. Yeah. At something more, tell me.
+
+00:06:22:17 - 00:06:32:24
+Speaker 1
+I think I'm never sure whether something that is so structured is something that authors want.
+
+00:06:33:01 - 00:06:34:03
+Speaker 3
+All right.
+
+00:06:34:05 - 00:06:44:07
+Speaker 1
+So there's an old tool that I came across back when I was doing my thesis that I don't know if it's around in what's called Romantica.
+
+00:06:44:09 - 00:06:46:18
+Speaker 3
+Yeah, yep, yep, yep.
+
+00:06:46:20 - 00:06:53:17
+Speaker 1
+Yeah. So it reminds me of this in some way. This reminds me of dramatic in some way. Like dramatic. It was very complicated.
+
+00:06:53:19 - 00:06:56:06
+Speaker 2
+I looked at and seems like.
+
+00:06:56:08 - 00:07:03:16
+Speaker 1
+Okay, you've looked at it, right? So it's got so many things. They have an example of Star Wars and all that, characters and relationships and it's a lot.
+
+00:07:03:18 - 00:07:04:01
+Speaker 2
+Yes.
+
+00:07:04:01 - 00:07:19:07
+Speaker 1
+So I think what's good about this is it's much simpler and direct and it gets you to that visualization a lot faster. Whereas dramatic seemed like it was just everything became filling in forms.
+
+00:07:19:09 - 00:07:20:07
+Speaker 3
+Um.
+
+00:07:20:09 - 00:07:27:19
+Speaker 1
+Well, I, I guess my main answer to your question is like my first impression when I saw this, I thought, Oh no, is it dramatic?
+
+00:07:27:21 - 00:07:30:16
+Speaker 2
+Yeah. So it's feels like a bit. Yeah.
+
+00:07:30:18 - 00:07:55:18
+Speaker 1
+Yeah. But it, it's not. So I think the fact that it quickly there's not that many steps in the ideation and it does feel like it's getting you to think about the right things. Maybe it's the that part where you're filling in all the characters and adding the characters. Yeah, that, that is the closest. But it's also not as bad.
+
+00:07:55:20 - 00:08:11:03
+Speaker 1
+What I mean by that is I remember yeah, if the write a lot about all the different characters, what's their motivation? What do they want, What's their favorite cereal or whatever. But it's like too much. And you as an author, you need to work through that as you write.
+
+00:08:11:05 - 00:08:11:13
+Speaker 3
+Yeah.
+
+00:08:11:13 - 00:08:33:00
+Speaker 1
+So I think it may be about the right level of complexity here. At least you lay out the, the general elements in the story and then you can move on to the narrative design. Yeah. So I think my what I'm trying to say I think is you don't want too much in the too much and you don't want too much structure in the ideation phase.
+
+00:08:33:02 - 00:08:33:21
+Speaker 3
+Mm hmm.
+
+00:08:33:22 - 00:08:38:04
+Speaker 1
+I want to quickly get to the narrative design, I think.
+
+00:08:38:06 - 00:08:41:20
+Speaker 2
+Okay.
+
+00:08:41:22 - 00:09:19:07
+Speaker 2
+I when I talked to some of the people in line, etc., and in chats and I had some introduces actor creators indeed. Like I think what what you are saying like they have all this like dichotomy, like bankster some planners or architects gardener are so basically like splitting the house who does not like plumbing. And for instance I talked to one guy and he's like writing this huge games with 200 rooms or whatever, and he writes everything in the in Google Docs and it's like version 1.11.0.
+
+00:09:19:07 - 00:09:32:24
+Speaker 2
+I added this character and he comes with changelog and so like this this person he said that it I only does it in the sense that it's not that often information filled forms like literally.
+
+00:09:33:01 - 00:09:38:04
+Speaker 1
+So I guess that yeah I can see that. So it really depends on the type of author.
+
+00:09:38:10 - 00:09:39:10
+Speaker 3
+Yeah.
+
+00:09:39:12 - 00:09:46:15
+Speaker 1
+So which suggests another project would be to customize this right to allow you to somehow customize it.
+
+00:09:46:17 - 00:10:11:11
+Speaker 2
+Yeah, I will admit to you what is thought about it. Too bad. So I did an illustrator. I will be honest, that's all I implemented. But what I saw already is like a project management kind of thing. So starting new project with existing project then is Yeah, I think it's comparable to design. If you start a new project, you have a list of whatever you as and also have already worked upon.
+
+00:10:11:13 - 00:10:38:17
+Speaker 2
+And then when you do a new project you can basically skip the whole idea at all. And then like if you want ideation, you go through what we just walked through. If you want directly to me, it making you have a very minimal screen of like super minimal information. What do you want? Yeah, yeah, very basic. And then it gives you one element of each type and let you be with it and do your own stuff.
+
+00:10:38:17 - 00:10:41:18
+Speaker 3
+So that makes your process.
+
+00:10:41:20 - 00:10:49:08
+Speaker 1
+Yeah, that's, yeah, that's, that's what I was thinking of actually. Some way of having a different way of using it. If it fits you better.
+
+00:10:49:10 - 00:10:49:17
+Speaker 3
+Yeah.
+
+00:10:49:17 - 00:10:51:03
+Speaker 1
+Jump straight to Yeah, yeah, yeah.
+
+00:10:51:05 - 00:10:53:01
+Speaker 3
+Yeah, yeah. That's, that's, yeah.
+
+00:10:53:03 - 00:11:18:08
+Speaker 2
+That's something which I already thought about a bit for. Yeah. Okay. Okay. Okay. So that was the first question. Oh, mind switch over leaf. Oh yes. So another question is yeah. What is missing in this particular scope.
+
+00:11:18:10 - 00:11:22:08
+Speaker 3
+Mm hmm.
+
+00:11:22:10 - 00:11:41:11
+Speaker 1
+I don't know if this counts as being in the scope or not, but what I we were talking about just now, I think seeing the story. Yeah. Feels like what I'm saying. So that in the narrative design, being able to see the story go back and forth between something that's that actual story and the visualization, I think that would be useful.
+
+00:11:41:13 - 00:11:44:13
+Speaker 3
+Yeah, yeah, yeah, yeah.
+
+00:11:44:15 - 00:11:49:02
+Speaker 2
+Okay. What was not clear, You mentioned like terminology and all stuff.
+
+00:11:49:02 - 00:11:50:03
+Speaker 3
+But yeah.
+
+00:11:50:05 - 00:11:52:02
+Speaker 1
+It's mostly the terminology I think.
+
+00:11:52:04 - 00:11:55:02
+Speaker 3
+Yeah. Okay.
+
+00:11:55:04 - 00:12:13:23
+Speaker 2
+Yeah. Is there anything you were expecting that was not available? I think that's exactly the switch in screensaver. Yeah. Yeah. Okay. So as humans are still is programed progression really for more types of narrative would you see yourself using it in your creative projects or work and why and why not?
+
+00:12:14:00 - 00:12:18:23
+Speaker 3
+And why not?
+
+00:12:19:00 - 00:12:51:14
+Speaker 1
+It feels like I would definitely try it. I think that the difficulty with this question is you don't really know until you actually try it in a real project, right? So it feels like it's yeah, it feels like it has potential. I mean, it's particularly with that ability to jump to the meaning making. I mean, I think I would probably do that, but I'm not sure actually, it feels like the sort of tool that if it was out there, I would probably sign up or download it and I would try it for a while and may or may not use it depending on how useful it seems.
+
+00:12:51:16 - 00:12:52:19
+Speaker 3
+Mm hmm.
+
+00:12:52:21 - 00:12:59:14
+Speaker 1
+But I think it's hard to tell, just looking at it. So the best answer I can give is I would definitely try it.
+
+00:12:59:15 - 00:13:00:10
+Speaker 3
+Yeah. Yeah.
+
+00:13:00:12 - 00:13:03:01
+Speaker 2
+That's a very good ask.
+
+00:13:03:03 - 00:13:15:03
+Speaker 1
+I would try it. It looks like it. It's not something I would like. Yeah, I don't see a use for it. It feels useful. It's just whether it really fits my needs. Then I have to use it to see it.
+
+00:13:15:05 - 00:13:16:18
+Speaker 3
+Yeah. Yeah.
+
+00:13:16:20 - 00:13:31:02
+Speaker 2
+It's okay. And maybe the last question. What do you think about the concept of an adaptable sandbox? Also an environment that adapts to the creative goals and aims to collaborate between itself and the Creator.
+
+00:13:31:04 - 00:13:35:20
+Speaker 1
+Well, that's a big question now.
+
+00:13:35:22 - 00:13:40:24
+Speaker 2
+And that's as this prototype illustrates it to some extent or not.
+
+00:13:40:24 - 00:14:09:04
+Speaker 1
+I think to some extent, I think what's it's hard to tell just with the prototype, but I think it's the sort of thing you'd need it to actually be implemented in to try it, I guess how much does it actually adapt and whether the adaptation is useful or not? Because I think that the danger with adaptation is it may not get it right.
+
+00:14:09:06 - 00:14:22:16
+Speaker 1
+What I mean is that it might think I'm doing something right. So I'm assuming that you chose the different genres and things at the start. So if I'm choosing it to be a fiction versus a journalist gig, I'm choosing it absurdist rather than horror.
+
+00:14:22:20 - 00:14:23:21
+Speaker 3
+Yeah.
+
+00:14:23:23 - 00:14:48:17
+Speaker 1
+I would expect something is adapted based on that. And then I, I think the what I'm thinking about is actually again, something we talked about before, if it adapts, but it's flexible. Um, so that it doesn't adapt and then lock me into something if it can. So as a simple example, what we talked about, like if I want to change the genre.
+
+00:14:48:22 - 00:14:49:24
+Speaker 3
+Yeah, yeah.
+
+00:14:50:01 - 00:15:02:21
+Speaker 1
+So if there's some way during the meeting making process to tweak some of the things that it used to adapt based on. And so if I realize I'll actually when I say absurdist, I mean horror, I didn't realize.
+
+00:15:03:00 - 00:15:03:21
+Speaker 3
+Yeah, it's.
+
+00:15:03:21 - 00:15:13:05
+Speaker 1
+Not what the the designer the tool has to thought versus what I think that means. So if I can go and fiddle with it until it adapts the way I want it to adapt.
+
+00:15:13:07 - 00:15:14:20
+Speaker 3
+Then it would be okay.
+
+00:15:14:22 - 00:15:26:21
+Speaker 1
+It's just if it's adapting or if it thinks it's smarter than me. Right? This is like if you're using like you buy something on Amazon and it starts to recommend stuff that isn't what you want.
+
+00:15:26:23 - 00:15:27:05
+Speaker 3
+Yeah.
+
+00:15:27:09 - 00:15:42:24
+Speaker 1
+For example, it becomes frustrating, but when it suddenly shows you something that, Oh yeah, I never thought of that. But yeah, it's right. It's like stuff that I like. Then it works. So I think as long as you can retain some control over the adaptation, yeah. Then yeah.
+
+00:15:43:01 - 00:15:45:14
+Speaker 3
+Yeah.
+
+00:15:45:16 - 00:16:06:02
+Speaker 2
+But that's what I also, I mean I like building walls, you know? So like if you told me some days, then forget about everything else. But yeah, that, that makes sense. Yeah, yeah, yeah. Oh, okay. I'm out of questions, actually. Do you have any more feedback? You want to give? Just like, I.
+
+00:16:06:02 - 00:16:08:17
+Speaker 3
+Mean.
+
+00:16:08:19 - 00:16:24:05
+Speaker 1
+Not really, I think. I mean, you asked almost all the questions I could think of answering. I think it's very interesting. I mean, it's nice that it's really tackling the ideation phase and you can see I mean, because I know some of the Franco's work, I can see how it sort of fits into some of his bigger ideas.
+
+00:16:24:06 - 00:16:25:20
+Speaker 3
+Yeah, but it doesn't.
+
+00:16:25:23 - 00:16:31:08
+Speaker 1
+But it's nicely scoped as well. So I think if you basically focus on what you've got here and get it working.
+
+00:16:31:14 - 00:16:31:20
+Speaker 3
+Yeah.
+
+00:16:32:01 - 00:16:36:01
+Speaker 1
+That I think it can be part of a larger tool that can be very useful.
+
+00:16:36:06 - 00:16:37:14
+Speaker 3
+Yeah, yeah.
+
+00:16:37:16 - 00:16:46:14
+Speaker 1
+Yeah. So again, not so much a question about the tool but about your where you are, Right. So are you almost done mean is this.
+
+00:16:46:14 - 00:16:47:03
+Speaker 3
+Yeah.
+
+00:16:47:05 - 00:17:02:08
+Speaker 2
+I'm almost done so prototype this build. I'm not building a single thing anymore or whatever. I have a slide. Yeah. I will add one more screen maybe to illustrate how this piece would look so journalism. So I still have to.
+
+00:17:02:10 - 00:17:03:13
+Speaker 3
+Think about that.
+
+00:17:03:15 - 00:17:04:15
+Speaker 1
+Comparison. Yeah.
+
+00:17:04:18 - 00:17:22:06
+Speaker 2
+That that so but it will be an illustrator so I will not called it in Python because like, yeah, I've had enough of coding obviously. So yeah, I've almost done the writing discussion. The wrapping up was, was results. Yeah. Not done. So I'm happy.
+
+00:17:22:07 - 00:17:25:21
+Speaker 1
+Yeah. Are you submitting out paper. Do I get.
+
+00:17:25:23 - 00:17:30:24
+Speaker 2
+That. I think that yeah. So now I honestly.
+
+00:17:31:01 - 00:17:32:00
+Speaker 1
+You want to get your thesis done.
+
+00:17:32:03 - 00:17:56:11
+Speaker 2
+I have to get my season's dongas first thing and seconds thing. I'm hot chocolate. I'm scared of academia in general because, I mean, I'm out. I'm actually I'm ten years. I was working in industry, and now I'm just doing this because I found so. But I. My whole life is around academia, like my boyfriend is doing basically that is doing it.
+
+00:17:56:13 - 00:18:05:16
+Speaker 2
+So I'm kind of non nonacademic in academia settings. So I'm having a bit of like, okay, Frank asks me to do it, but I'm.
+
+00:18:05:16 - 00:18:07:18
+Speaker 3
+Like, you know, that's.
+
+00:18:07:20 - 00:18:11:08
+Speaker 1
+Okay. So yeah, well, I, I didn't mean to trigger, you.
+
+00:18:11:10 - 00:18:15:08
+Speaker 2
+Know, but like academia is very interesting, but it's quite the world.
+
+00:18:15:08 - 00:18:20:24
+Speaker 1
+I understand. Yeah, I guess the reason I was asking is I think it's good work, so I think it would be nice to share it.
+
+00:18:20:24 - 00:18:22:24
+Speaker 3
+So you think? Yeah.
+
+00:18:23:01 - 00:18:42:01
+Speaker 1
+Yeah, yeah. So whether it's a paper or. I mean, you could talk to Frank. I mean, think is on the committee just like me. So, you know, it's, you know, it's on the headlines. So if there's some way you could show something like a demo or something like that, I think it would be worth doing. Yeah, because I mean, some of the ideas, like you said, where some of it's from Frank's work.
+
+00:18:42:03 - 00:18:45:20
+Speaker 1
+Yeah, but is making it concrete. It's showing it as something that actually is there again.
+
+00:18:45:21 - 00:18:49:03
+Speaker 2
+Because it's tangible and you can look at it. Yeah, yeah.
+
+00:18:49:05 - 00:18:49:23
+Speaker 3
+Yeah.
+
+00:18:50:00 - 00:18:55:01
+Speaker 1
+So, okay, this isn't the way to do it. They have something to discuss, right?
+
+00:18:55:05 - 00:18:57:11
+Speaker 2
+And luckily the systems are all right.
+
+00:18:57:13 - 00:19:11:13
+Speaker 1
+Yeah, exactly. Rather than just waving your hands around. So I think it's worth sharing. Yeah. So if either, I mean, doesn't have the sort of thing you have to rush, right? So either this year or next year conference, I think it is worth sharing.
+
+00:19:11:15 - 00:19:28:16
+Speaker 2
+Yeah, I think that's an idea. But Frank also mentioned that there is like the business of brutal or not brutal. I that's a wrong word like strict requirements on the amount of words all the all the formats that also basically the whole my whole over with paper will have to be rebuilt. But yeah I mean.
+
+00:19:28:21 - 00:19:29:18
+Speaker 3
+I mean.
+
+00:19:29:18 - 00:19:52:21
+Speaker 1
+You can squeeze your whole thesis into a paper, but you can if you can find a piece of it. Yeah. Something that captures the idea or that's why I thought maybe because there is a demo category in the conference which is short this question. Yeah, it's a short description of the tool and or whatever you've made, and then you can show something that people can try out.
+
+00:19:52:23 - 00:19:59:03
+Speaker 1
+So if you have enough of it that you think it's stable enough and then you could show, I think that might be a way to think about it. And we talked to Frank about it.
+
+00:19:59:03 - 00:20:02:06
+Speaker 3
+You can certainly.
+
+00:20:02:08 - 00:20:25:11
+Speaker 2
+Yeah, thanks. I'm actually very happy to talk to you. That was very interesting. In general, I'm completely happy about it and stuff because, I mean, I just I work as a data engineer in the somewhere else and I was doing this muster and then all of a sudden, Yeah, idea. It's super interesting. I'm excited by the concept. I'm excited by the Anyway, it got me going, so I'm curious.
+
+00:20:25:13 - 00:20:27:06
+Speaker 1
+I've Good, That's good.
+
+00:20:27:08 - 00:20:28:04
+Speaker 3
+Yeah.
+
+00:20:28:06 - 00:20:29:24
+Speaker 1
+Yeah. I hope this has been helpful.
+
+00:20:30:01 - 00:20:34:07
+Speaker 2
+I that was extremely helpful. Thank you. And sorry for talking too much because I have a tendency to watch.
+
+00:20:34:07 - 00:20:35:15
+Speaker 3
+So yeah, it's okay.
+
+00:20:35:17 - 00:20:38:22
+Speaker 1
+No problem. So all the best for your thesis. Good luck to.
+
+00:20:38:22 - 00:20:47:00
+Speaker 2
+Getting to the Excel. Yeah. Are you going to the conference? I i on Sunday or something?
+
+00:20:47:02 - 00:20:48:10
+Speaker 1
+Uh, sorry.
+
+00:20:48:12 - 00:20:53:12
+Speaker 2
+There was a conference on Sunday in the Netherlands.
+
+00:20:53:14 - 00:21:08:07
+Speaker 1
+I think so, but I'm not. No, I won't be going to that. Okay. Yeah, there's. There's too many. This is the thing with academia. There are lots and lots of conferences all over the place. So. So, no, I'm working on a paper for kids, but I'm having this immediate. Yeah.
+
+00:21:08:09 - 00:21:11:16
+Speaker 2
+What about? I'll have to read it.
+
+00:21:11:18 - 00:21:14:23
+Speaker 1
+Yeah, if I can get it.
+
+00:21:15:00 - 00:21:19:03
+Speaker 2
+Okay, Alex. And enjoy your parents.
+
+00:21:19:05 - 00:21:19:15
+Speaker 3
+Thank you.
+
+00:21:19:15 - 00:21:21:24
+Speaker 1
+They care.
+
+00:21:22:01 - 00:21:22:12
+Speaker 3
+About.
+

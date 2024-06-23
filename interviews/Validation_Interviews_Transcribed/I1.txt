@@ -1,0 +1,1631 @@
+00:00:00:03 - 00:00:05:04
+Speaker 1
+Court.
+
+00:00:05:06 - 00:00:39:22
+Speaker 1
+okay. so, It's the purpose of this project is to explore ways to enhance ideas. An interactive digital narrative authoring experience with the help of an adaptive sandbox. Also, an environment. The process of creating ideas can be divided into four distinct phases. Ideation a that's where the initial concept ideas are established. But, then meaning making, that's where the author specifies the actual message to be conveyed.
+
+00:00:39:24 - 00:01:17:11
+Speaker 1
+then interaction and validation. this particular project focuses on visualizing the prototype that illustrates the idea of having such an adaptable interface, within the sandbox, also in system. the proposed prototype is by no means intended as a tool, but rather as a way to illustrate a hypothesis and collect feedback on it. it's currently an interactive, web based application connected to a database in the backend with, partially implemented functionalities, pre-populated data and hard coded articles.
+
+00:01:17:13 - 00:01:57:01
+Speaker 1
+It does cover, the ideation and partially meaning making faces, which I explained before of ID and creation. So, for this test, I'd like to ask you to imagine as if you are Franz Kafka and you decided to use this tool for your new creative project, namely a story where a man becomes a bug. this is something that, we know, as, historically in the film workflows is I'm not sure if you read it, but basically the whole setup of this, prototype is made around a story.
+
+00:01:57:03 - 00:02:14:01
+Speaker 1
+first of all, Sasha, I'd like to ask you to, to allow the validation questionnaire with me. just, to gather some general population information about, participants. So what's your age?
+
+00:02:14:03 - 00:02:16:03
+Speaker 2
+33.
+
+00:02:16:05 - 00:02:24:08
+Speaker 1
+And how many, years of experience in, creation of Pfizer? Linear or non-linear stories? Do you have.
+
+00:02:24:10 - 00:02:27:21
+Speaker 2
+One year approximately?
+
+00:02:27:23 - 00:02:38:17
+Speaker 1
+And what kind of narratives have you created? what kind of products did you did you work upon?
+
+00:02:38:19 - 00:02:47:24
+Speaker 2
+I make, videos, but basically popular science videos. I think that's the best way to describe it. So they are linear and non-interactive.
+
+00:02:48:01 - 00:02:49:05
+Speaker 1
+
+
+00:02:49:11 - 00:02:55:20
+Speaker 2
+It's just me narrating. For some images that play in the video.
+
+00:02:55:22 - 00:03:08:21
+Speaker 1
+Okay. Yeah. Yeah. Yeah. Yeah. Okay. in which modalities have you worked? I think you just answered. So it's basically the video and audio, right.
+
+00:03:08:23 - 00:03:09:18
+Speaker 2
+Proof. Yes.
+
+00:03:09:18 - 00:03:16:20
+Speaker 1
+You don't do any. Okay. Yeah. So modalities video do this. Okay. And last but.
+
+00:03:16:20 - 00:03:24:06
+Speaker 2
+Sometimes, sometimes there is some sometimes I put text on the screen. I don't know whether that counts as text or whether that's just part of the video.
+
+00:03:24:10 - 00:03:47:22
+Speaker 1
+Okay. Yeah yeah yeah yeah yeah yeah. That actually does count. Okay okay. And if I may wonder, before we continue, how do you approach planning, for, your products? How do you plan where do you store this information, for instance, the steps to which you put or what you narrate? How do you approach that process?
+
+00:03:47:24 - 00:04:20:06
+Speaker 2
+First, I wrote out right out, my script in word. All of it. before I start the video. so I write, write out the scripts I record. I recorded. I record my voice. And then I, find video or, or still images that, match what I'm talking about. And I combine this in, in video recording or video editing software.
+
+00:04:20:08 - 00:04:42:23
+Speaker 1
+Okay. Yeah. Yeah. Yeah. in the video editing software, which video editing software you use. And sometimes we should Premiere Pro. So basically in terms of tools, you now using word video. it's called Video Pro.
+
+00:04:43:00 - 00:04:45:15
+Speaker 2
+premiere Pro. Premiere Pro. So we.
+
+00:04:45:17 - 00:04:46:01
+Speaker 1
+
+
+00:04:46:20 - 00:04:54:03
+Speaker 2
+And to record my audio I use. What is it called. Also Adobe.
+
+00:04:54:05 - 00:04:59:22
+Speaker 1
+Also. Okay.
+
+00:04:59:24 - 00:05:02:08
+Speaker 2
+Let me just quickly check audition. Of course.
+
+00:05:02:10 - 00:05:03:04
+Speaker 1
+Audition.
+
+00:05:03:04 - 00:05:06:06
+Speaker 2
+It's called Adobe Audition. Yes.
+
+00:05:06:08 - 00:05:36:07
+Speaker 1
+Okay. Yeah. Okay. Thank you. yeah. So, what I like to do now is to give you basically, two tasks. Two big tasks. so I'll ask you to go through this prototype, two times, with slight difference in choices. So I will let you know which choices and actions are compulsory, and, otherwise, you can do what you want.
+
+00:05:36:09 - 00:05:37:09
+Speaker 2
+Okay.
+
+00:05:37:11 - 00:06:03:11
+Speaker 1
+each task, of this tool has a home page as a starting point. And, can you please use, thinking aloud method? That means that, please, just, tell me everything you see or whatever thoughts it triggers in you. Okay. and please feel free to ask any questions during the process and comment whether you consider this functionality useful, of helpful or not.
+
+00:06:03:13 - 00:06:10:12
+Speaker 1
+And please be aware that it's a prototype so a lot of things don't work. So yeah, if there are bugs sorry for that. Yeah.
+
+00:06:10:14 - 00:06:11:18
+Speaker 2
+Okay. Okay.
+
+00:06:11:20 - 00:06:29:17
+Speaker 1
+So first question is, yeah. Please, imagine that you are Franz Kafka and start planning for, your new project for the first time. so. Yeah. please. This is a whole screen. What do you see?
+
+00:06:29:19 - 00:06:42:03
+Speaker 2
+I see the name of the web tool. I see your name. And I see one bottom. New project with ideation phase.
+
+00:06:42:05 - 00:06:45:18
+Speaker 1
+Okay. The task is to start a new project for the first time.
+
+00:06:45:21 - 00:06:46:17
+Speaker 2
+Do I have control?
+
+00:06:46:23 - 00:06:54:21
+Speaker 1
+Yes, I do have control. I still have control. Yeah. Then for.
+
+00:06:54:23 - 00:06:57:05
+Speaker 2
+So we are now in ideation.
+
+00:06:57:07 - 00:06:58:09
+Speaker 1
+
+
+00:06:58:11 - 00:07:00:06
+Speaker 2
+Ayman. Audience. Yes.
+
+00:07:00:08 - 00:07:02:16
+Speaker 1
+Please follow.
+
+00:07:02:18 - 00:07:05:23
+Speaker 2
+Oh, okay.
+
+00:07:06:00 - 00:07:22:00
+Speaker 2
+so I guess we'll go through these phases, and then we'll go from left to right to meaning making and then to validation. Yeah. Provide some information about the aim and audience of your idea. And what is the topic topic of the narrative.
+
+00:07:22:02 - 00:07:30:23
+Speaker 1
+So you are writing a story. I'm not sure whether you wrote it, but you are writing Metamorphoses. that some person becomes an insect, something basically.
+
+00:07:31:02 - 00:07:38:00
+Speaker 2
+Man becomes bug. Okay. Type of metamorphosis.
+
+00:07:38:02 - 00:07:46:17
+Speaker 1
+Yeah.
+
+00:07:46:19 - 00:07:51:00
+Speaker 2
+Go.
+
+00:07:51:02 - 00:08:00:20
+Speaker 2
+Just entertainment, I think. What is the aimed audience?
+
+00:08:00:22 - 00:08:06:19
+Speaker 2
+No idea. Adult.
+
+00:08:06:21 - 00:08:12:18
+Speaker 2
+Education level. Needs and attention. I don't know.
+
+00:08:12:20 - 00:08:13:17
+Speaker 1
+Okay. Okay.
+
+00:08:13:21 - 00:08:15:10
+Speaker 2
+Just adult.
+
+00:08:15:12 - 00:08:36:03
+Speaker 1
+Can I ask, do you consider this and this kind of questions confusing for somebody who just starts with something? not confusing. Like, is it too much? I mean, you are beginning with a new project. Like, you don't know all the stuff. Is it reasonable to ask these questions in the beginning?
+
+00:08:36:05 - 00:08:45:13
+Speaker 2
+Maybe if, if someone has their own project, it makes sense, because now I don't know what, what the audience is that Franz Kafka envisioned.
+
+00:08:45:15 - 00:08:46:09
+Speaker 1
+Okay.
+
+00:08:46:11 - 00:08:51:05
+Speaker 2
+But if I have my own project, then I would probably be able to answer it better.
+
+00:08:51:07 - 00:08:57:04
+Speaker 1
+Yeah. Of course. Yeah. Yeah. Okay.
+
+00:08:57:06 - 00:09:03:22
+Speaker 2
+Okay. Let's continue. Right. Yeah. Yeah. Yeah.
+
+00:09:03:24 - 00:09:23:02
+Speaker 1
+So here. please take a look what is written on the screen. But here I would require you to make some, predefined choices, namely for modality. I want you to choose text and for media, I want you to choose section.
+
+00:09:23:04 - 00:09:28:14
+Speaker 2
+Okay. So these are all the options. Text.
+
+00:09:28:16 - 00:09:33:23
+Speaker 2
+Which tool would you like to use for text modality.
+
+00:09:34:00 - 00:09:48:02
+Speaker 2
+Does it matter? No. I'll just choose word. That's what I usually use. Media. Fiction. Fiction.
+
+00:09:48:04 - 00:09:48:22
+Speaker 2
+And type of.
+
+00:09:48:22 - 00:09:53:13
+Speaker 1
+Narrative. Short story.
+
+00:09:53:15 - 00:09:58:13
+Speaker 1
+Hope and absurdist fiction.
+
+00:09:58:15 - 00:10:01:15
+Speaker 2
+And if I choose anything else in this prototype, it will.
+
+00:10:01:17 - 00:10:18:18
+Speaker 1
+If you choose anything else in this prototype, everything will work, because it's more or less hard coded. But what I implemented in this prototype is true. Let's put it like this. Only for this selection. If you choose anything else, you will see the same screen, but it's not applicable to this kind of narratives.
+
+00:10:18:20 - 00:10:19:12
+Speaker 2
+Okay.
+
+00:10:19:14 - 00:10:21:09
+Speaker 1
+So yeah.
+
+00:10:21:11 - 00:10:24:03
+Speaker 2
+What is this?
+
+00:10:24:05 - 00:10:27:07
+Speaker 1
+This is I got at least some plugin. Let's see.
+
+00:10:27:09 - 00:10:36:01
+Speaker 2
+I see. Okay. And then here I can write an initial plot synopsis and turned into a bug.
+
+00:10:36:06 - 00:10:59:03
+Speaker 1
+Oh, I'm sorry, I forgot. I want you to also populate this one. so initial plot synopsis is something that you also have to do in a have to go that way. Why is that? For this use case is because I'm also testing an integration with another system. And for now it's still hardcoded. So if you don't mind I just look at this.
+
+00:10:59:03 - 00:11:21:10
+Speaker 1
+So this is a story. Oh it's a young man that turns. And I see now that I should I should not copy it like this. So basically it's more or less repopulate that. Yes. Sorry. So that's what I need. The next input. Yeah.
+
+00:11:21:12 - 00:11:23:08
+Speaker 2
+Okay.
+
+00:11:23:10 - 00:11:30:01
+Speaker 1
+What do you think so far? Does it make sense? Is it useful? Is it? Yeah.
+
+00:11:30:03 - 00:11:39:04
+Speaker 2
+So this is about media and genre. But then there's also a summary here.
+
+00:11:39:06 - 00:11:41:04
+Speaker 1
+It's. Yeah.
+
+00:11:41:06 - 00:11:48:12
+Speaker 2
+Okay.
+
+00:11:48:14 - 00:11:51:12
+Speaker 2
+And can you start without a summary?
+
+00:11:51:14 - 00:12:05:09
+Speaker 1
+Yeah. Yeah. In a second round one we will do. It will be. No. No summary. Yes you can. It's not not compulsory. But if you have any idea already that is why you can touch it.
+
+00:12:05:11 - 00:12:10:03
+Speaker 2
+Yeah. And in the final version you'll be able to just go back and forth between different phases.
+
+00:12:10:05 - 00:12:30:02
+Speaker 1
+Yeah. Absolutely. Absolutely. So as you can see like in the main you, you have explicitly it's mentioned where you are right now. So you know which stage you are at. and in the, final version, you'll be able to navigate in between and I'll make updates as needed. But now is just not in at.
+
+00:12:30:04 - 00:12:40:19
+Speaker 2
+Okay. Okay. So this is done. Yeah. Continue. Yeah. To content structure.
+
+00:12:40:21 - 00:12:55:06
+Speaker 2
+Which content structure do you envision as the content structure elements of your narrative and relationships between them? The following elements are supported character location, event.
+
+00:12:55:08 - 00:13:00:02
+Speaker 2
+Relationships. Functionality through front end is not supported. What does it mean?
+
+00:13:00:07 - 00:13:29:22
+Speaker 1
+So let me just give you an introduction. First of all, you see here already a bunch of elements pre-populated. That's something I'm doing in the background just to set the story. So this is like something that I set off myself. there is for instance, there is a possibility to, add to your, elements yourself so you can create a character location event yourself.
+
+00:13:29:24 - 00:13:52:02
+Speaker 1
+and then you there is a possibility for each of them to be deleted and for event to have a relationship with either another event location or character. but this functionality. So basically if you press button plus relationship it does not work. That's what it means. It is not supported in the UI.
+
+00:13:52:04 - 00:13:54:05
+Speaker 2
+Okay.
+
+00:13:54:07 - 00:14:08:02
+Speaker 1
+So can I ask you which context structure elements do you see like like possible to be added right now.
+
+00:14:08:04 - 00:14:11:00
+Speaker 2
+Character location, event.
+
+00:14:11:02 - 00:14:34:09
+Speaker 1
+would you consider. It to be useful to set it up like this, to basically decide or consider upfront about the content structure elements? Is it this kind of approach useful or it's difficult?
+
+00:14:34:11 - 00:14:39:16
+Speaker 2
+I can imagine that there's, elements in stories which you don't fit underneath. Yeah.
+
+00:14:39:18 - 00:15:08:01
+Speaker 1
+Yeah. Do you have any idea? I mean, that was just one of the most basic setups to think about content structure elements for a soft type of narrative being like a short story. would you consider any other standard elements which are applicable for this particular type of narrative, or it's, too far fetched to ask what else could be there except character location?
+
+00:15:08:01 - 00:15:16:12
+Speaker 1
+Not.
+
+00:15:16:14 - 00:15:29:24
+Speaker 2
+If it's just, a section where, there's a lot of description or like a general introduction or outro of a story.
+
+00:15:30:01 - 00:15:37:14
+Speaker 2
+Like if it's a narrated by the narrator, then there might not be any character or location or event.
+
+00:15:37:16 - 00:15:50:03
+Speaker 1
+Maybe. Okay. Yeah. Yeah. So that's some category that we can consider. Okay.
+
+00:15:50:05 - 00:15:56:11
+Speaker 2
+Or maybe you can in the final version have people make their own categories.
+
+00:15:56:13 - 00:16:12:11
+Speaker 1
+Yeah. You still have to like, give them some skeleton in the beginning. Right. Yeah. But then provide an option of flexibility. Of course. Yeah. Thanks. Let's continue.
+
+00:16:12:13 - 00:16:13:19
+Speaker 2
+What should I do.
+
+00:16:13:21 - 00:16:23:16
+Speaker 1
+For now. Nothing for now. Just continue. in the second, use case in the second round, around, I'll ask you to create your own, thanks, but.
+
+00:16:23:18 - 00:16:30:21
+Speaker 2
+Okay, so now we just go to general settings. Yeah. Okay.
+
+00:16:30:23 - 00:16:32:01
+Speaker 1
+So here.
+
+00:16:32:02 - 00:16:37:09
+Speaker 2
+Context. Yeah. General settings. Okay.
+
+00:16:37:11 - 00:16:42:08
+Speaker 1
+Does it not make sense? You wouldn't expect that.
+
+00:16:42:10 - 00:16:53:23
+Speaker 2
+Because here it says add more context. But here it's called general settings. general settings. I would, interpret it as something else.
+
+00:16:54:00 - 00:16:56:12
+Speaker 1
+Like for technical settings. Okay.
+
+00:16:56:15 - 00:17:02:04
+Speaker 2
+Yeah. Like the the color or. Okay. the font stuff like this.
+
+00:17:02:06 - 00:17:38:22
+Speaker 1
+Yeah. Okay. That's something I'll have to consider. Yeah. here, I would like you to also make some predefined choices. So the first one interaction a range of complexity to keep it as no interaction. Again for the final tool. We also want to support non-linear storytelling. But for this prototype it's not applicable. and then the next one is, something that for which I asked you to populate initial plot was predefined text.
+
+00:17:38:24 - 00:17:46:15
+Speaker 1
+there's, So can you please click yes. Here.
+
+00:17:46:17 - 00:18:26:23
+Speaker 1
+So basically, what it is, it is an integration with, another, system, and this system is, some project from somebody else. And the idea is that and also, during ideation phase will have a possibility to work, with, AI tools, charging for actually to, do you want ideation phase to be able to, generate a background story for their narrative?
+
+00:18:27:00 - 00:18:40:04
+Speaker 1
+So, yeah. Can you maybe iterate through the screen until I tell me whether it makes sense, what you read and whether the content generator.
+
+00:18:40:06 - 00:18:56:20
+Speaker 2
+For your generating content, background story for your text based fiction ongoing process, refine and update the background story by incorporating your feedback.
+
+00:18:56:22 - 00:18:57:12
+Speaker 1
+So can you please.
+
+00:18:57:12 - 00:19:01:06
+Speaker 2
+So your yeah you already you already have the story.
+
+00:19:01:08 - 00:19:02:03
+Speaker 1
+Yes. Yes.
+
+00:19:02:03 - 00:19:04:05
+Speaker 2
+And then I'll put it in here. And then what.
+
+00:19:04:07 - 00:19:27:07
+Speaker 1
+So what is the idea is so can you click generate and I'll to explain using it. So now it's hard coded. But what is an idea. So the idea is that so far you have populated so far you have populated elements in ideation space. So for instance, you said that it's, called Metamorphoses.
+
+00:19:27:07 - 00:19:58:16
+Speaker 1
+For instance, you said that it's text based. You provided initial plot synopsis of the text, which I entered instead of you. I generated in the background some characters and events already. and then what actually is supposed to happen in this stage is as soon as you click generate back button, I in the background collect all this information which was already populated using the UI, and send it to an API to an external service.
+
+00:19:58:18 - 00:20:30:13
+Speaker 1
+And then this external service, uses this information collected from this user interface to generate a background story using ChatGPT for and this might help potentially all in further development or creative project. So what do you think about this functionality in such a way or in general? Is it helpful? Doesn't make sense.
+
+00:20:30:15 - 00:20:32:18
+Speaker 2
+technically, or whether I would use it.
+
+00:20:32:20 - 00:20:47:24
+Speaker 1
+Whether you would use it and whether you see, you foresee, for instance, for yourself this potentially useful. Not in this particular configuration, but in general, but basically, yeah, just, use and charge it to generate context for creative project.
+
+00:20:48:01 - 00:21:01:18
+Speaker 2
+You know, I would not use it in this way because I, I, I, I've already come up with this story in my head. So I will just type it. So I will type this synopsis in the earlier page.
+
+00:21:01:20 - 00:21:03:24
+Speaker 1
+Yeah.
+
+00:21:04:01 - 00:21:28:11
+Speaker 2
+I don't I don't see what this adds. I already have the story in my head let's say. So I think anything that you will generate based on these inputs, it would either be the the same story that I came up with or it would be or it would, invent stuff that I don't want in my story or it would change some of the, the story parts.
+
+00:21:28:13 - 00:21:51:23
+Speaker 1
+but in this case I'm still trying to, to, to, to, to to ask you further because as you can see there is also a possibility to so you generate the story one time and then you can provide your feedback as many times as you want and regenerate the story. So again, here is more like a pre-populated feedback.
+
+00:21:52:00 - 00:22:28:15
+Speaker 1
+So as I tell you for now, we don't have an integration yet. But what I did, I if you don't mind, I'll just put it in myself. So basically the workflow is is following is and also, uses this functionality to generate a story, using the inputs before and then reads it and then comes up with some feedback, whatever it is, and then puts us feedback into the this box and then clicks on the refine.
+
+00:22:28:17 - 00:22:49:00
+Speaker 1
+I'll just do it for you if you don't mind. And then the story is regenerated. So basically you can interact with ChatGPT as many times as you wish. And to kind of polish your background story by providing feedback as many times as you wish. Would you consider that useful or not at all?
+
+00:22:49:02 - 00:22:58:01
+Speaker 2
+It's one of the what is the background? What is the point of this story that you generate here? That's a good question. How will it be used?
+
+00:22:58:03 - 00:23:22:14
+Speaker 1
+That's a very good question. To me. It was a bit difficult to understand as well, to be very honest with you, but that's something my, fellow students worked upon. And we agreed that my, also until somewhere to provide possibility to, create a background story on ideation space for a narrative engineers for a, for the author.
+
+00:23:22:14 - 00:23:34:21
+Speaker 1
+So maybe it's not applicable in the first place. So that's a good question. I don't see its usage, but yeah, I'm not the one to judge. So yeah.
+
+00:23:34:23 - 00:23:41:04
+Speaker 2
+I also don't, at least for my type of, okay projects that I make. I would not not this.
+
+00:23:41:10 - 00:23:50:03
+Speaker 1
+Okay. Very, very clear. let's continue please, just click submit and let's let's go on.
+
+00:23:50:05 - 00:23:53:11
+Speaker 2
+
+
+00:23:53:13 - 00:24:33:08
+Speaker 1
+Yes. So, that was background story. next piece of functionality is, again, it's a bit vague. So which embedded tools would you like to use? so the whole authoring tool is envisioned to be a modular system which can, connect to any number of external services for whatever purposes. So this piece of UI just shows that you can, then surely use different services to interact with in your one environment.
+
+00:24:33:09 - 00:25:00:03
+Speaker 1
+So in this case, there is just some three examples. They don't mean anything. They are basically just some features projects of people from last year which add something to the whole process. But it's just to illustrate that the system could be modular. So if you don't mind, can you please select all three of them?
+
+00:25:00:05 - 00:25:01:02
+Speaker 2
+Oh.
+
+00:25:01:04 - 00:25:08:14
+Speaker 1
+I think either, by by holding Ctrl or by holding shift. Yeah. What was it? Control shift.
+
+00:25:08:16 - 00:25:09:18
+Speaker 2
+I use control now.
+
+00:25:09:21 - 00:25:16:14
+Speaker 1
+Okay. And, may I ask, does it make sense to phrase it in the beginning stages like this?
+
+00:25:16:16 - 00:25:18:18
+Speaker 2
+Like the phrase what I.
+
+00:25:18:20 - 00:25:25:14
+Speaker 1
+Do at the beginning stage. So you are Franz Kafka, and then I ask you, do you want to use figurative language support model or not?
+
+00:25:25:16 - 00:25:36:08
+Speaker 2
+I don't know what it means even exactly. Okay, so you would have to add some information here. I think we have hover over it or click on it and get more information.
+
+00:25:36:10 - 00:25:37:01
+Speaker 1
+Yeah.
+
+00:25:37:03 - 00:25:39:20
+Speaker 2
+Yeah. Because at this point I have no idea.
+
+00:25:39:22 - 00:25:45:24
+Speaker 1
+Yeah okay. Okay. Okay. let's continue.
+
+00:25:46:01 - 00:25:50:13
+Speaker 2
+Are there any notes you would like to add? What what happens to these notes? Not just for me.
+
+00:25:50:15 - 00:25:52:11
+Speaker 1
+It's just for you. Nothing.
+
+00:25:52:13 - 00:25:58:15
+Speaker 2
+Okay, so we continue. Yes.
+
+00:25:58:17 - 00:26:01:03
+Speaker 2
+Like. Like,
+
+00:26:01:05 - 00:26:39:00
+Speaker 1
+So what we see right now, we see, something called intent structure. So this is basically a visualization of, your of the content of your story at this point. So during ideation phase, you envision that you will have, two characters. So characters are circles family and some, some. And then you would have one location bedroom. And then you will have three events, as the meeting is ending.
+
+00:26:39:02 - 00:27:10:06
+Speaker 1
+you will have the, you will have three events, transformation, neglect, death. And then you could see that for instance, transformation event is connected to bedroom location and to Gregor Samsa. So it's basically a content structure of your story which you've envisioned so far. Visualized. So I wonder is it useful? potentially something like this or not?
+
+00:27:10:08 - 00:27:16:05
+Speaker 2
+Yes, I think so. But.
+
+00:27:16:07 - 00:27:17:06
+Speaker 1
+We are.
+
+00:27:17:08 - 00:27:30:04
+Speaker 2
+I don't understand, how we would use this because from here on, we are still in the first stage and now we will continue to narrative design. I will say that this is the main part of this. to.
+
+00:27:30:06 - 00:27:34:06
+Speaker 1
+The main part is the next part is the next part. Yes.
+
+00:27:34:08 - 00:27:37:07
+Speaker 2
+Okay. So this is just, this is.
+
+00:27:37:07 - 00:28:05:23
+Speaker 1
+Just to show you what did you build so far? It's just to inform you basically about your that so basically now you went through the whole ideation phase. Now it's like finished. Right. And the output of it is apart from all this information which we've collected before. Like. Yeah. Audience. La la la la la. It's also content and it's like a core part of it.
+
+00:28:05:23 - 00:28:38:03
+Speaker 1
+It's a content of it. And this is basically visualizing this core part. Eventually this visualization will also contain other parts like audience etc., etc.. So now it's limited only to the content part. So potentially it will be powered by some knowledge graph and it will have other visualization approach. But in the end it's basically an artifact which collect captures all the information we've collected so far and ideation phase and present it to you in a readable format.
+
+00:28:38:03 - 00:28:51:11
+Speaker 1
+So it's just an example. But it finally, it would be a visual structure, visual data structure basically, which would hold all the information that was collected so far.
+
+00:28:51:13 - 00:28:57:20
+Speaker 2
+Okay. Okay. And K can you go back. Let's say I want to add a character.
+
+00:28:57:22 - 00:29:01:20
+Speaker 1
+You go back potentially you can in this in this prototype you can not potentially.
+
+00:29:02:01 - 00:29:02:23
+Speaker 2
+Okay.
+
+00:29:03:00 - 00:29:09:15
+Speaker 1
+Okay. So you can go back and forth all the time. But not in this implementation. Now it's very linear.
+
+00:29:09:17 - 00:29:18:22
+Speaker 2
+Okay. Let's continue continue to narrative design. Yes.
+
+00:29:18:24 - 00:29:51:17
+Speaker 1
+So let me explain because in the internal structure you saw much less, amount of characters and events and locations. So what is the idea is that once you are finished with ideation, you start meaning making and then in meaning making, you see here in UI you have a lot of like you can add new elements, delete elements, etc., etc. etc. all of this buttons don't work yet.
+
+00:29:51:18 - 00:30:15:13
+Speaker 1
+So what I did, I in the background created more characters. But imagine that that would be your space in which you would create a structure for your narrative, like real structure. So you would do ideation. You would have three characters, one event, then you would go to meaning make it face to actual story and you will start writing out and adding more, adding more, adding more, deleting something, adding something.
+
+00:30:15:13 - 00:30:23:17
+Speaker 1
+So that's what I try to simulate by adding more stuff so that now you have like almost ready story.
+
+00:30:23:19 - 00:30:34:15
+Speaker 2
+But then I don't understand why we even do the. Why you even make characters and events in the ideation phase. Why not just do it all here?
+
+00:30:34:17 - 00:31:04:10
+Speaker 1
+That's a good question. Because to capture your original idea, maybe. So you use that? Yeah. That's a good question. I don't have an answer. okay. can I then, but then, like. Okay. But basically the purpose of this is to serve, like a working space for you to further develop the structure of your story.
+
+00:31:04:12 - 00:31:06:14
+Speaker 2
+This is where you would spend most of your time.
+
+00:31:06:16 - 00:31:28:22
+Speaker 1
+That. Yes. Yes. Okay. So, first of all, can I ask you what which buttons do you see on the right? And, I mean, all of them work. Sorry for that, but, does it make sense to have these buttons? And would you imagine maybe something else?
+
+00:31:28:24 - 00:31:46:07
+Speaker 2
+Add element. An element is a shape, basically. So it's a character. It's one of those elements that we discussed. Okay. Exactly. Add element. Delete element. Added element. Add node. Don't know what add node means in this case.
+
+00:31:46:09 - 00:32:11:10
+Speaker 1
+So I would envision that upon clicking on any either element or relationship, you could add free node to it like reminders or anything else. So it's basically a free node to any of the elements just to yeah function which does not fit into predefined structures, whatever exists.
+
+00:32:11:16 - 00:32:15:01
+Speaker 2
+Okay.
+
+00:32:15:03 - 00:32:23:14
+Speaker 2
+Add relationship. So that's a line. delete relationship. Show intent structure. Isn't this the intent structure.
+
+00:32:23:16 - 00:32:49:19
+Speaker 1
+So yeah, that's maybe a bit, because this is yeah. So there are two phases. There is ideation phase, where you kind of plan for your events, for your story. And the output of ideation is something we call intent structure. And then when you are done with planning, maybe it's a bit too rigid, this division, then you actually start creating.
+
+00:32:50:00 - 00:33:18:06
+Speaker 1
+And this what you see now is something we call like actual structure. Which might be different. So in this case intent structure was having overall like five elements. And this one has much more. So what eventually we would want to see is to be able to jump back and forth from ideation structure to actual structure. So from previous ones was just like five elements to this one.
+
+00:33:18:06 - 00:33:45:06
+Speaker 1
+And do continuous consistent checks maybe. See, maybe at some point I wanted to have, I don't know not gradual some. So the main character but a girl or something else. And then you might remember what was your idea previous sleep and then next to your actual structure, see what you considered before and maybe reconsider. So that's continuous check between these two things.
+
+00:33:45:08 - 00:34:02:06
+Speaker 1
+So in this case internal structure, it's the screen you've seen before and actual structure. Next button is what you see. Now. Does it make sense.
+
+00:34:02:08 - 00:34:05:16
+Speaker 1
+Say say what you think. Please.
+
+00:34:05:18 - 00:34:12:24
+Speaker 2
+I still don't understand the division because you start with some characters, but you.
+
+00:34:13:01 - 00:34:23:04
+Speaker 2
+So in the so in the ideation phase, you, you assume that someone already has their whole story planned out.
+
+00:34:23:06 - 00:34:24:19
+Speaker 2
+Or not?
+
+00:34:24:21 - 00:34:27:16
+Speaker 1
+will question.
+
+00:34:27:17 - 00:34:38:24
+Speaker 2
+because you want them to add all the characters and events, and then here. But, what is the point end of this phase? Because the whole story and all the elements can already be added in the ideation phase.
+
+00:34:39:01 - 00:35:01:19
+Speaker 1
+I think ideation space is more like a conceptual layer. So for instance, if we think about this particular story and imagine we have Franz Kafka. So he wakes up one day and thinks, I want to write about a human that becomes a bug. And who do we have? We have a human who becomes a bug, and we have a family who eventually tries to accept him, but then, neglects him and then he dies.
+
+00:35:01:21 - 00:35:29:02
+Speaker 1
+So that's an idea Franz Kafka has in the first place. Then he starts thinking about it, and then he writes in ideation phase. I have two characters, main character and his family. And everything happens in one place in the bedroom. That's it. And then he starts actually writing the story. So first it's capturing the whole idea that, like, I have this idea, let me not forget it because I will tomorrow think about something else.
+
+00:35:29:07 - 00:35:55:03
+Speaker 1
+So I capture this idea and then based on this idea, I have this very limited structure created. But then I actually start thinking about it better. And then I think, okay, but except family. Family consists of a sister, sister, police, violin, and they also have some of woman and some other characters. And it's not only in the in the bedroom, but in the living room.
+
+00:35:55:09 - 00:36:16:16
+Speaker 1
+And also some of the events happen in outside. So you are building a pond, so you have a core idea. Will you capture it? It stays there, but then you when the actual story happens, you build upon it. You add more and more and more and more and more. Does this make sense?
+
+00:36:16:18 - 00:36:32:11
+Speaker 2
+But that's how everybody writes I think. So I would just yeah, imagine it's it's one object. Let's say I would not split it between okay. The first time you, you come up with something and then all the changes you make because yes, I see.
+
+
+00:00:03:05 - 00:00:07:03
+Speaker 1
+Mm hmm. Let me.
+
+00:00:07:05 - 00:00:10:07
+Speaker 2
+Show my screen.
+
+00:00:10:09 - 00:00:17:02
+Speaker 1
+And put.
+
+00:00:17:04 - 00:00:18:04
+Speaker 2
+And let me give.
+
+00:00:18:08 - 00:00:24:09
+Speaker 1
+You a let me give you a little I to remote.
+
+00:00:24:09 - 00:00:28:02
+Speaker 2
+Control. Of course.
+
+00:00:28:04 - 00:00:31:10
+Speaker 1
+Okay. Okay.
+
+00:00:31:12 - 00:00:37:06
+Speaker 2
+So, yes, we were discussing the differences between structure and actual structure.
+
+00:00:37:08 - 00:00:41:02
+Speaker 3
+Mm hmm.
+
+00:00:41:04 - 00:00:43:04
+Speaker 3
+To me, the difference is still not clear.
+
+00:00:43:06 - 00:00:44:05
+Speaker 1
+Mm hmm.
+
+00:00:44:07 - 00:00:53:13
+Speaker 3
+Especially for people who don't have the whole story in their head when they start, they will spend most of their time on the in this page and not in the previous one.
+
+00:00:53:15 - 00:00:59:03
+Speaker 1
+Exactly. Yeah. Yeah. Okay.
+
+00:00:59:05 - 00:01:28:12
+Speaker 2
+And the last button is consistency check. So the idea is that the tool will help you to to check the consistency of your story. Basically, if you have some. For instance, now the graph is small, but imagine that you have some event which has no relationships or something like that that will help you to highlight those. But yeah, it's also still a work in progress.
+
+00:01:28:14 - 00:02:01:06
+Speaker 2
+So now I would like to also ask you so like that would be like the eventual or something similar will be the eventual working space for a creator. What do you think about this kind of approach in general, which our approach to narrative space can you consider? Like would you imagine even working with something like this?
+
+00:02:01:08 - 00:02:10:00
+Speaker 3
+If I have a very big story. Yes. Mm hmm. If I have a short a narration.
+
+00:02:10:02 - 00:02:10:21
+Speaker 1
+No.
+
+00:02:10:23 - 00:02:26:09
+Speaker 3
+Then I think it's easier probably just to type it in words. But if I have a very big story. Yeah. With a lot of different sub series of subplots, let's say, then I might be interested in a tool like this.
+
+00:02:26:11 - 00:02:27:24
+Speaker 1
+Mm hmm.
+
+00:02:28:01 - 00:02:29:16
+Speaker 2
+Okay. The last part.
+
+00:02:29:17 - 00:02:36:23
+Speaker 3
+I make, but I just make videos so I don't really have characters or locations in that sense.
+
+00:02:36:24 - 00:03:13:18
+Speaker 2
+By the way, I'm just curious for like in this example, we have, like only a short story. Like, can you even consider Kansas tool potentially or similar to be used for the type of creative work you are doing? So for in your case, you are making videos linear are videos with some text with some audio on top. For this videos you combine other videos and like add them all together.
+
+00:03:13:20 - 00:03:28:06
+Speaker 2
+Like what would be the like literally question what would be as a content element structures for your type of media, for your type of sound narrative. What kind of.
+
+00:03:28:08 - 00:04:08:10
+Speaker 3
+Instead of events, I think it would just be a small, uh, I don't know, narrative component. Like every, every part of a video has a, I don't know, a message. Let's say you can summarize in one sentence. So instead of events like relief or neglect, it would be, uh, one story block, let's say. And instead of characters, I might have audio or video.
+
+00:04:08:12 - 00:04:11:23
+Speaker 3
+Mm hmm. Associated with that event.
+
+00:04:12:00 - 00:04:15:04
+Speaker 1
+Mm hmm. Mm hmm. Mm.
+
+00:04:15:06 - 00:04:24:20
+Speaker 3
+So certain certain video files might be associated with different events, like I might show them during one story block. And then also story block.
+
+00:04:24:22 - 00:04:27:08
+Speaker 1
+Yes, that's a good one. Okay.
+
+00:04:27:09 - 00:04:36:18
+Speaker 3
+You can make your own elements, then you could use it for something like this, like documentary type videos.
+
+00:04:36:20 - 00:04:55:09
+Speaker 2
+And of course, what we can do, we can use also because every well, there are standard ways to to define linear storytelling, like your introduction, main idea conclusions, this kind of blocks, we can also try to embed those that.
+
+00:04:55:11 - 00:04:58:18
+Speaker 1
+The yeah oh.
+
+00:04:58:20 - 00:05:15:21
+Speaker 3
+One one thing that I think is important is to indicate in this graph somehow the chronology because now it's it seems like the events are just placed that's a bit randomly in this, in this interface.
+
+00:05:15:23 - 00:05:17:19
+Speaker 1
+Yeah. Yeah.
+
+00:05:17:21 - 00:05:23:14
+Speaker 3
+I think maybe if you add arrows, but I think it would be easier if it just goes from top to bottom or left to right.
+
+00:05:23:16 - 00:05:25:16
+Speaker 2
+Yeah, yeah, yeah, yeah.
+
+00:05:25:18 - 00:05:30:10
+Speaker 1
+Yeah. Yes, that's good. Good feedback.
+
+00:05:30:12 - 00:05:47:15
+Speaker 2
+Are. To be very honest with you, my original idea was to do it from top to bottom. So top is the oldest event. And then in the bottom, your houses in the the U.S. Grand. But then I was not able to to find the appropriate library which would allow me to implement that. So I ended up at circle.
+
+00:05:47:15 - 00:06:10:12
+Speaker 2
+So yeah that was but that's a good point that it's it will help understanding basically. Okay. Last task for this thing for this test can you please explorer as the data sales of a battle node.
+
+00:06:10:14 - 00:06:11:24
+Speaker 3
+Detect is very small.
+
+00:06:12:01 - 00:06:15:03
+Speaker 2
+By clicking on it.
+
+00:06:15:05 - 00:06:16:11
+Speaker 3
+That will.
+
+00:06:16:13 - 00:06:20:10
+Speaker 1
+Just click that.
+
+00:06:20:12 - 00:06:22:22
+Speaker 2
+So what do you see?
+
+00:06:22:24 - 00:06:47:17
+Speaker 3
+Location, Bedroom. Description. Main place where things happened. Component Gregor's room is most critical place in the house. Will some information about his bedroom safe delete import x component from word delete component.
+
+00:06:47:19 - 00:06:48:19
+Speaker 1
+Mm hmm. So if.
+
+00:06:48:19 - 00:06:51:14
+Speaker 3
+You if you delete, you delete the whole thing.
+
+00:06:51:16 - 00:06:52:06
+Speaker 2
+Element.
+
+00:06:52:08 - 00:07:10:08
+Speaker 3
+You delete the component. You just delete this. Yeah. Mm hmm. Content generation service again, subject. And then again, these two things, which I don't know what they are among. And if you click safe, it will just close this page as.
+
+00:07:10:11 - 00:07:30:06
+Speaker 2
+It will not work. A bottle of work. So say the idea is that as soon as I click save. So in the back end there would be most likely a knowledge graph database. So as soon as you click save, then all the history and all the changes are indeed saved in the backup.
+
+00:07:30:06 - 00:07:34:09
+Speaker 1
+Yeah? Mm hmm.
+
+00:07:34:11 - 00:07:38:05
+Speaker 3
+But it's not clear what you delete here then.
+
+00:07:38:06 - 00:08:17:06
+Speaker 2
+Element. I think it should be more clear that like element or component because if you can click on description and on component, just click on any of those things. Yeah, yeah, yeah, yeah. So basically the idea is that well right now we have only a text that's a modality you chose before. It's only text. So the idea is like this is more like a collection of each element can contain multiple components of multiple types.
+
+00:08:17:07 - 00:08:42:05
+Speaker 2
+For instance, in this case, bedroom since original, the wizards of our narrative is only text, then we can only add text components and we can add them as much as many as we want using the words. So what the idea is, for instance, if you would click on the button import text component, then you will have a microsoft Word open for you.
+
+00:08:42:07 - 00:09:05:05
+Speaker 2
+Then you would do your same, add your descriptions, then save as a document and then to hold document will be saved. And and all these graphs. So basically in UI, it's just a collection. So each element contains a collection of different components of different types.
+
+00:09:05:07 - 00:09:05:20
+Speaker 1
+Mm hmm.
+
+00:09:05:22 - 00:09:26:10
+Speaker 2
+So in this, this is just an illustration that it can be more component. So this first component, second sort, whatever each of them, you can delete, then they will be gone from the element and you can delete element all together. So this is basically like a collection space at a library, space where you collect different.
+
+00:09:26:10 - 00:09:28:24
+Speaker 1
+Parts if it makes sense.
+
+00:09:29:01 - 00:09:38:14
+Speaker 2
+What do you think? Is it something that might be useful in such an implementation or a comparable implementation?
+
+00:09:38:16 - 00:09:45:06
+Speaker 3
+Again, maybe because this is just to, uh, help yourself write as an author.
+
+00:09:45:08 - 00:09:49:23
+Speaker 1
+Exactly.
+
+00:09:50:00 - 00:09:55:10
+Speaker 1
+Echo. Okay.
+
+00:09:55:12 - 00:10:20:22
+Speaker 3
+So I think if you have a very big story, it might be useful to remind yourself what, what is this bedroom location or what does this character. But I think if you have a small story, then just seeing the term or the name of the character is sufficient to remind yourself what what it is, who they are.
+
+00:10:20:24 - 00:10:26:22
+Speaker 1
+Mm hmm. Mm hmm. Okay.
+
+00:10:26:24 - 00:10:29:15
+Speaker 1
+Right. And okay.
+
+00:10:29:15 - 00:10:39:17
+Speaker 2
+And now, if I would still like you to click on two more elements. So, yeah, if you can just close this window and then close over here. Yeah.
+
+00:10:39:19 - 00:10:43:02
+Speaker 1
+Yeah. And then click.
+
+00:10:43:02 - 00:10:56:15
+Speaker 2
+On office manager last left this. So that's just an example of similar thing. But for another element. Type for a character.
+
+00:10:56:16 - 00:10:58:15
+Speaker 1
+Mm hmm. Okay.
+
+00:10:58:17 - 00:11:14:11
+Speaker 2
+No, that's just something to. Okay, So basically now we are dog was a first case with the first scenario and now that's there was a same thing. Second time in the. Hmm. Starting from the homepage.
+
+00:11:14:13 - 00:11:18:05
+Speaker 1
+Go to home. Yes, go to all.
+
+00:11:18:07 - 00:11:26:12
+Speaker 2
+So, again, the same thing. I'll ask you to walk through the whole process again. The user now making all of the different choices.
+
+00:11:26:14 - 00:11:27:01
+Speaker 1
+Yep.
+
+00:11:27:03 - 00:11:34:10
+Speaker 2
+Okay, so here was the same change, metamorphosis, whatever.
+
+00:11:34:12 - 00:11:44:19
+Speaker 3
+And bug entertainment.
+
+00:11:44:21 - 00:11:47:06
+Speaker 1
+Mm hmm.
+
+00:11:47:08 - 00:11:50:17
+Speaker 3
+I don't.
+
+00:11:50:19 - 00:11:59:20
+Speaker 2
+Here. I would like it to just text plus visual.
+
+00:11:59:22 - 00:12:11:15
+Speaker 3
+Doesn't matter which I can. Right. Those much visual procreate media.
+
+00:12:11:17 - 00:12:19:12
+Speaker 2
+I place the same fiction show story out. So the fiction, that's the only selection for this.
+
+00:12:19:14 - 00:12:21:22
+Speaker 1
+Which is actually.
+
+00:12:21:24 - 00:12:24:09
+Speaker 3
+Sort of fiction.
+
+00:12:24:11 - 00:12:39:18
+Speaker 2
+Have to populate and now we explore to highlight is a background story. So it's fine. So here, if you want know that, please add a custom element to just any element.
+
+00:12:39:20 - 00:12:47:09
+Speaker 1
+Mm hmm.
+
+00:12:47:11 - 00:12:47:20
+Speaker 1
+Okay.
+
+00:12:48:00 - 00:12:53:05
+Speaker 2
+What is the name of the character development bug? Okay.
+
+00:12:53:07 - 00:12:56:17
+Speaker 1
+Mm hmm. Sorry.
+
+00:12:56:19 - 00:13:21:13
+Speaker 3
+Let's say third family go for George Summit.
+
+00:13:21:15 - 00:13:32:07
+Speaker 2
+So. Yeah. And can you please delete two elements? Family, character. And that's if I just delete the.
+
+00:13:32:09 - 00:13:33:01
+Speaker 3
+Which one?
+
+00:13:33:03 - 00:13:44:18
+Speaker 1
+Family. This one? Yes. Yes. And death. Yeah.
+
+00:13:44:20 - 00:13:55:11
+Speaker 2
+Just continue the the general settings. So it's just to illustrate. Oops. Not not yet. Okay, so let's do a no interaction. No. And then.
+
+00:13:55:13 - 00:13:57:12
+Speaker 1
+We.
+
+00:13:57:14 - 00:14:05:11
+Speaker 2
+Don't do anything on this particular screen. Just continue. Just we have not selected any of the tools.
+
+00:14:05:13 - 00:14:09:22
+Speaker 3
+Okay.
+
+00:14:09:24 - 00:14:32:22
+Speaker 2
+So I just wanted to illustrate that the structure is actual the visualization of what you enter yourself. So as I mentioned before, I do have to go to some of the things, but you can delete them. So you delete the two elements and you've added one element and then that's basically what's left.
+
+00:14:32:24 - 00:14:33:23
+Speaker 1
+Let's Okay.
+
+00:14:34:00 - 00:14:49:10
+Speaker 2
+So that was just purpose to illustrate you that it's adapts to your needs. What you have made. As I say here now it's smaller because you've deleted two things and now we have a freestanding church which is not connected to anything or anybody.
+
+00:14:49:12 - 00:14:50:03
+Speaker 1
+Because.
+
+00:14:50:05 - 00:14:52:11
+Speaker 2
+The relationships are not supported.
+
+00:14:52:13 - 00:14:53:06
+Speaker 1
+Yeah.
+
+00:14:53:08 - 00:15:14:04
+Speaker 2
+So, okay, what I want you to do now is to open again. It's a bedroom note. What do you see now?
+
+00:15:14:04 - 00:15:21:20
+Speaker 3
+I also see a picture component, and there are fewer options here.
+
+00:15:21:22 - 00:15:32:16
+Speaker 2
+Can you maybe you remember what what's the difference compared with the previous case?
+
+00:15:32:18 - 00:15:39:05
+Speaker 3
+Import text. It doesn't have those three options.
+
+00:15:39:07 - 00:15:44:00
+Speaker 2
+Yes, because we didn't delete them. We did not. We decided not to use the services.
+
+00:15:44:00 - 00:15:46:02
+Speaker 3
+Yes. Oh, of course. Yeah.
+
+00:15:46:04 - 00:15:56:16
+Speaker 2
+So you go digitally, you choose all of them, and then this tool will help you to use them. And now you select. No. So you don't. You are not okay anymore.
+
+00:15:56:18 - 00:15:57:07
+Speaker 1
+Yep.
+
+00:15:57:09 - 00:16:31:00
+Speaker 2
+And Spurs are. If you can see we selected the regionally a text plus visual modality and now we see and we end we preselected tool. So now you see two buttons import text component and import visual component and I in the current implementation I just added it in parentheses doors. But in the actual tool in actual implementation, if you would click on input visual components, the system will remember that you wanted to use procreate and we'll just open procreate tool for you.
+
+00:16:31:02 - 00:16:31:24
+Speaker 3
+Okay.
+
+00:16:32:01 - 00:16:51:00
+Speaker 2
+And again, as a representation, every element is a collection of different components of different types. So in this case it's more in case of 3D tool. It will be a 3D model in case of video, it might be a video which describes a location, etc. So it's basically media sensitive.
+
+00:16:51:02 - 00:16:52:24
+Speaker 1
+It's okay.
+
+00:16:53:01 - 00:17:00:12
+Speaker 3
+And what if you change your mind during the creation of your narrative and instead of open office, you want to use words?
+
+00:17:00:14 - 00:17:02:19
+Speaker 1
+Mm hmm.
+
+00:17:02:21 - 00:17:05:20
+Speaker 2
+In that question. That's a good question.
+
+00:17:05:22 - 00:17:07:10
+Speaker 1
+Oh.
+
+00:17:07:12 - 00:17:10:02
+Speaker 2
+I think so. For now.
+
+00:17:10:04 - 00:17:10:15
+Speaker 1
+Yeah.
+
+00:17:10:15 - 00:17:30:06
+Speaker 2
+I think that, yeah, in current implementation law and my original thought was that intent is something in done structure is something that is already well done. I did not think about process of jumping between spaces, between ideation and me to make it business. So yeah.
+
+00:17:30:07 - 00:17:31:06
+Speaker 1
+I'm all.
+
+00:17:31:07 - 00:17:32:22
+Speaker 2
+Good question. Will Will I'll think about.
+
+00:17:32:22 - 00:17:36:16
+Speaker 1
+It for now it's something Yeah.
+
+00:17:36:18 - 00:17:40:02
+Speaker 3
+Okay. I think eventually it should be fluid.
+
+00:17:40:04 - 00:17:40:12
+Speaker 1
+And.
+
+00:17:40:14 - 00:17:55:02
+Speaker 3
+Like you just if you just want to import a picture, you should be able to just upload a JPEG or an illustrator file or whatever. Yeah, yeah. And they'll be tied to one, uh, software package.
+
+00:17:55:04 - 00:17:55:17
+Speaker 2
+Yeah.
+
+00:17:55:19 - 00:17:57:06
+Speaker 1
+Yeah.
+
+00:17:57:08 - 00:18:14:01
+Speaker 2
+Okay. And then I'll just for your information, if you can just browse through another two other elements. So office manager and neglect. So yeah, it's just to illustrate.
+
+00:18:14:03 - 00:18:14:05
+Speaker 1
+To.
+
+00:18:14:06 - 00:18:23:23
+Speaker 2
+To illustrate different elements which similar concept. So that's office manager and then neglect that's only about up.
+
+00:18:24:00 - 00:18:27:01
+Speaker 1
+Yes.
+
+00:18:27:02 - 00:18:30:08
+Speaker 3
+What I've found a bug.
+
+00:18:30:10 - 00:18:31:01
+Speaker 2
+Can look quite.
+
+00:18:31:02 - 00:18:32:19
+Speaker 1
+Again.
+
+00:18:32:21 - 00:18:38:20
+Speaker 3
+I know why because I clicked on office manager and instead of the cross I just clicked here.
+
+00:18:38:22 - 00:18:39:13
+Speaker 1
+And then.
+
+00:18:39:15 - 00:18:43:11
+Speaker 3
+It it's active still. And then I click here and it's still allowed.
+
+00:18:43:16 - 00:18:50:09
+Speaker 2
+And I'll close now. Close. And now it reloaded and I'll click on it.
+
+00:18:50:11 - 00:18:55:06
+Speaker 1
+Yes. Okay.
+
+00:18:55:08 - 00:19:03:03
+Speaker 3
+Neglect. They started neglecting him. Okay.
+
+00:19:03:05 - 00:19:04:13
+Speaker 1
+Yeah.
+
+00:19:04:15 - 00:19:14:24
+Speaker 2
+Okay. Let's just to illustrate, you think so? Okay. For now, we are basically done with the.
+
+00:19:15:01 - 00:19:16:00
+Speaker 1
+With.
+
+00:19:16:02 - 00:19:39:24
+Speaker 2
+The test. So now I would like to ask for your I would like to discuss with you your overall experience. So by using this both using this product and see what you think about it. So stop sharing the screen. It's Do you see my face now and only my face?
+
+00:19:40:01 - 00:19:40:18
+Speaker 1
+Yes.
+
+00:19:40:20 - 00:19:56:15
+Speaker 2
+It's okay. So, Sasha, what were your first impressions? No, I will not ask the questions now. Just give me your free feedback, whatever is on your mind, and then I'll ask you a couple of questions.
+
+00:19:56:17 - 00:20:26:02
+Speaker 3
+Uh, I, I'm trying to imagine how you because it, it, it still feels like for small stories, it's a lot of extra work, right? Because you use this tool next to the, the actual product that you're making. So if you're making a video, uh, you make the video in some editing software, you would have to do all of this next to it in parallel.
+
+00:20:26:04 - 00:20:40:12
+Speaker 3
+Uh, just to, I don't know, keep an overview. Somehow I think that's the main point of this tool, right? To keep an overview, you cannot use this tool to make something.
+
+00:20:40:14 - 00:21:13:16
+Speaker 2
+That's a good point, because the ultimate idea is to basically have something like a tool that collaborates in a creative process with the creator. So the ultimate vision is to help the author also in creative process. But this is right now what I built and what I'm trying to illustrate. It's of course, just like a collection, like a content management basically system.
+
+00:21:13:18 - 00:21:36:21
+Speaker 2
+But first of all, the intention is to use technology, analyze graphs, artificial intelligence, etc., and to make the tool that can learn. So basically you end up in the co-creation in the process of co-creation. With software, it's a business, but I think that's a bit far fetched. Think about right now.
+
+00:21:36:23 - 00:22:11:01
+Speaker 3
+Okay? Yeah. Okay then, then I, I would consider using it, but for, not for my use case right now for short videos. No, I think this is a just too much work. Yeah. Compared to what. What benefit I have from. It's such a small story, but I think if you have a big story with a lot of elements, then putting in, for instance the characters and the locations and having this visual overview, it could be useful.
+
+00:22:11:03 - 00:22:15:08
+Speaker 1
+Mm hmm. Mm hmm. Mm hmm. Okay.
+
+00:22:15:10 - 00:22:27:09
+Speaker 2
+Okay. So I have a couple of questions, but maybe you already answered them. But yeah, let me just run through them. So what were your first impressions of the prototype and those idea? They were explained as well.
+
+00:22:27:09 - 00:22:29:20
+Speaker 1
+I don't have.
+
+00:22:29:20 - 00:22:32:00
+Speaker 2
+Anything to add.
+
+00:22:32:02 - 00:22:38:05
+Speaker 1
+Mm.
+
+00:22:38:07 - 00:23:04:02
+Speaker 3
+First impression is that, uh, yes, I think I've already answered it. Okay. That's for me, for my use case. I think in its current state it's not useful. I think something like this, what you showed me is only useful for people very big projects. Mm hmm. Because then it's. It's worthwhile to spend time adding information in this tool.
+
+00:23:04:03 - 00:23:05:20
+Speaker 3
+So you have a nice overview.
+
+00:23:05:22 - 00:23:10:22
+Speaker 1
+Mm hmm. Okay. How does. Especially if. Yeah.
+
+00:23:10:24 - 00:23:23:07
+Speaker 3
+Especially if the tool makes this graph automatically, let's say you add characters and the relations and maybe order elements. And if you don't just click on the button and get the visual overview, that could be useful.
+
+00:23:23:09 - 00:23:24:12
+Speaker 1
+Yeah.
+
+00:23:24:14 - 00:23:26:08
+Speaker 3
+Especially if it's chronological.
+
+00:23:26:14 - 00:23:29:08
+Speaker 1
+Mm hmm. Yeah, yeah, yeah.
+
+00:23:29:10 - 00:23:42:12
+Speaker 2
+Okay. What about the whole workflow? So legs are structures, like internal structures is multiple steps then distinct meaning making structure was a narrative design based. So how the.
+
+00:23:42:12 - 00:23:45:21
+Speaker 1
+Whole flow.
+
+00:23:45:23 - 00:23:48:06
+Speaker 2
+Feels, you.
+
+00:23:48:08 - 00:23:56:17
+Speaker 3
+Add these three categories on top. I, I've never heard of them. So to me they're, uh, new.
+
+00:23:56:19 - 00:23:57:09
+Speaker 1
+Yeah.
+
+00:23:57:11 - 00:24:14:12
+Speaker 3
+And when often when I write, I have a basic idea, but I think in my head I go, I jump between ideation and meaning, making at least that's what you call it. Yeah. So for me, the writing process is more fluid. I don't go from left to right.
+
+00:24:14:14 - 00:24:19:12
+Speaker 1
+Yeah, yeah, yeah, yeah. Mm hmm. Okay.
+
+00:24:19:14 - 00:24:47:11
+Speaker 2
+Can you maybe identify, like, blatantly what is missing from this tool at the moment? Also, this prototype. Like what? Like made you a bit maybe like you were expecting it to be there and it was just not that.
+
+00:24:47:13 - 00:25:07:04
+Speaker 3
+I think a chronological overview, but that's the main the main selling point of a tool like this is, I think having this overview. MM Right. So I think it would have to be somehow in the indicated which event connects to which event. And in the case of a fictional story.
+
+00:25:07:06 - 00:25:14:04
+Speaker 1
+Yeah. Yeah, yeah. Okay. Oh, um.
+
+00:25:14:06 - 00:25:23:06
+Speaker 2
+What was unclear for you. Well, except the terminology was anything that you would want do this.
+
+00:25:23:08 - 00:25:31:00
+Speaker 3
+I still don't really understand why we entered all the information in the first few steps. Like target audience.
+
+00:25:31:02 - 00:25:33:19
+Speaker 1
+Um hmm.
+
+00:25:33:21 - 00:25:35:06
+Speaker 3
+Stuff like that.
+
+00:25:35:08 - 00:25:36:18
+Speaker 1
+Mm hmm.
+
+00:25:36:20 - 00:25:46:19
+Speaker 3
+Because eventually you get to this overview, but in this overview, you don't you don't see a lot of the information that that we entered in the first steps.
+
+00:25:46:21 - 00:25:51:06
+Speaker 1
+Yep, yep, yep, yep, yep, yep.
+
+00:25:51:08 - 00:26:04:00
+Speaker 2
+Okay. How would you describe the meaning? The purpose of ideation, meaning making phases as you've understood it, of the tool.
+
+00:26:04:02 - 00:26:22:18
+Speaker 3
+It seems to me like ideation is anything you do the first time you use the tool, like you have some idea, like a general story synopsis, and maybe the main characters. But after that you still have to write the actual story.
+
+00:26:22:20 - 00:26:24:00
+Speaker 1
+Well.
+
+00:26:24:02 - 00:26:28:03
+Speaker 3
+Which is the second phase meaning making.
+
+00:26:28:05 - 00:26:53:06
+Speaker 2
+But in your case, like this clear distinction does not make sense, right? So like, would it be better for you if the tool will just like from scratch, from home? PAGE ask you like, do you want to go through ideation or not? And then if you say yes, you are going through all this phases and if you say no, you are going to screen this meaning making and then you are basically free to go without.
+
+00:26:53:11 - 00:27:08:11
+Speaker 2
+Would that be better if you don't identify as a person who can clearly define between creative stages but more fluid? So would it be better if you could jump straight ahead to narrative design? For instance?
+
+00:27:08:13 - 00:27:36:22
+Speaker 3
+I think so, yes. Okay. I would still want to add a title. Yeah, maybe a very short synopsis. But after that, maybe I would just like to jump to the visual overview and start adding my elements. Yeah, story elements. Okay. Instead of doing it separately for the main story elements, uh, in the intent phase and then adding all the rest in the next phase.
+
+00:27:36:24 - 00:27:45:03
+Speaker 2
+So you would basically simplify ideation phase to very minimal, basically.
+
+00:27:45:05 - 00:27:48:08
+Speaker 1
+Mm hmm. Okay. Okay.
+
+00:27:48:10 - 00:28:12:01
+Speaker 2
+Oh, okay. Okay. So assuming that all is progressed professionally and is solved through and is solved through to support the different types of narrative and these are available open source, would you see yourself potentially using it in your creative projects, in your specific purpose, and why? And why not?
+
+00:28:12:03 - 00:28:53:09
+Speaker 3
+Yes, So I make a documentary style videos short once, So for a short video of maximum 10 minutes, I think I would not use this tool. But if I ever make a longer video with more elements, then I would consider using it to like this just so I can add the different elements. The story beats. Let's say, and then get this nice visual overview all chronologically of my my story beats the connect to the story beats could be quotes or small video fragments or audio fragments.
+
+00:28:53:11 - 00:28:55:15
+Speaker 1
+From.
+
+00:28:55:17 - 00:29:00:00
+Speaker 3
+Like the elements.
+
+00:29:00:02 - 00:29:29:18
+Speaker 2
+Okay, good, good, good, Good to hear. And then the last question, What do you think about the concept of an inductive sandbox? Also an environment that adapts to the creator's goals and aims for collaboration between itself and the creator. So basically it's a human A.I.. This potential is a tool will be empowered by different A.I. manifestations. So now it's just a container.
+
+00:29:29:18 - 00:29:42:10
+Speaker 2
+But the idea is big. So what do you think in general all about the such concept and about the concept of human A.I. creativity?
+
+00:29:42:12 - 00:29:53:02
+Speaker 3
+I don't understand what it would look like in this case, so I'm adding my elements. And then what would the computer do automatically?
+
+00:29:53:04 - 00:30:25:09
+Speaker 2
+So some of those are cases which I can envision is that, for instance, you are writing your story and then you can use charge it. For instance, you load the sentence and then you think, okay, I want it to be rewritten because I wanted to solve it because I want to appeal for audience of farmers. Let's say I want to use a portable language used in this region to make it sound more appealing to this kind of audience.
+
+00:30:25:09 - 00:30:57:23
+Speaker 2
+And then you can consult on activity to update your current sentence with the style that is more better. So this kind of purpose, or if you want to make use figurative language. So for instance, one of the tools, external tools, none of the changes that were made was a figurative language support. So you want to use metaphors. Some some fixed expressions in your tool.
+
+00:30:58:00 - 00:31:18:10
+Speaker 2
+Maybe you want to create and educational purposes thing and then you want to enrich it so you can use this A.I. tool which is based on the data science or machine learning model for figurative language, support for English, to brush up your content to style it in the way to fit a specific purpose. And there are multiple use cases like this.
+
+00:31:18:10 - 00:31:46:12
+Speaker 2
+And then the idea is to have this also an environment which would assemble all of this possibilities, but don't give them to user all at once because then you will get overwhelmed but adapt to user needs slowly and basically in the end give you only what you personally want to see or need to see or should see.
+
+00:31:46:14 - 00:31:47:21
+Speaker 1
+Not sure why.
+
+00:31:47:23 - 00:32:19:09
+Speaker 3
+This this only seems useful to me if you do everything in this tool, but if you like me, write your script in word before you even use this tool. If I want to use it, let's say to change the styling of my script, then I would just put my word file into it and then go from check, get back to my word file instead of taking my word file to this tool, then caldigit cubed, then back to the tool and then back to my word file.
+
+00:32:19:11 - 00:32:20:05
+Speaker 1
+Mm hmm.
+
+00:32:20:07 - 00:32:22:01
+Speaker 3
+So looks like it's an extra step.
+
+00:32:22:03 - 00:32:23:03
+Speaker 2
+Yeah. Excellent.
+
+00:32:23:04 - 00:32:25:06
+Speaker 1
+Yeah. Yeah. Okay.
+
+00:32:25:08 - 00:32:29:14
+Speaker 3
+So unless you do everything in this tool, I think it doesn't make sense for me.
+
+00:32:29:16 - 00:32:32:01
+Speaker 1
+Mm. Mm hmm.
+
+00:32:32:03 - 00:32:41:17
+Speaker 2
+So your primary use case, as you said, is just to keep an overview, but not to use it, like, as a starting point of your creative project.
+
+00:32:41:19 - 00:32:42:08
+Speaker 1
+Okay.
+
+00:32:42:10 - 00:32:44:19
+Speaker 3
+Indeed. And then.
+
+00:32:44:21 - 00:32:45:16
+Speaker 2
+Anything else you would.
+
+00:32:45:16 - 00:32:51:15
+Speaker 1
+Like to any. I don't think I could make no.
+
+00:32:51:17 - 00:32:56:20
+Speaker 2
+Okay. Without. Thank you so much for your time. And thank you.
+
+00:32:56:22 - 00:32:59:14
+Speaker 1
+Have a nice day.
+
+00:32:59:16 - 00:33:08:21
+Speaker 2
+It's stop recording.
+
+
+
